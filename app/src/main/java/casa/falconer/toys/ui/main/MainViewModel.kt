@@ -3,6 +3,7 @@ package casa.falconer.toys.ui.main
 import android.media.MediaPlayer
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
+import android.speech.tts.Voice
 import androidx.lifecycle.ViewModel
 import casa.falconer.toys.AnimalSpinApp
 import casa.falconer.toys.SharedPreferencesProvider
@@ -32,7 +33,9 @@ class MainViewModel : ViewModel() {
                 Timber.e("This Language is not supported")
             } else {
                 ttsReady = true
-                prefs.setVoiceOptions(availableVoiceNames())
+                val options = availableVoiceOptions()
+                Timber.d("available voices (%d): %s", options.size, options)
+                prefs.setVoiceOptions(options)
             }
         }
     }
@@ -66,10 +69,20 @@ class MainViewModel : ViewModel() {
         }
     }
 
-    private fun availableVoiceNames(): List<String> =
-        tts.voices
-            .filter { it.locale == TTS_LANGUAGE && !it.isNetworkConnectionRequired }
-            .map { it.name }
+    // All offline English voices (any region, any quality) — broadens the old US-only,
+    // high-quality pool so lower-fidelity/robotic voices can be picked too. Each option is
+    // serialized "id|region|quality" so SettingsScreen can show friendly grouped names
+    // (region + quality come from the live Voice and aren't recoverable from the id alone).
+    private fun availableVoiceOptions(): List<String> =
+        tts.voices.orEmpty()
+            .filter { it.locale.language == TTS_LANGUAGE.language && !it.isNetworkConnectionRequired }
+            .map { "${it.name}|${it.locale.displayName}|${qualityLabel(it.quality)}" }
+
+    private fun qualityLabel(quality: Int): String = when {
+        quality >= Voice.QUALITY_HIGH -> "High"
+        quality >= Voice.QUALITY_NORMAL -> "Normal"
+        else -> "Low"
+    }
 
     override fun onCleared() {
         tts.shutdown()
