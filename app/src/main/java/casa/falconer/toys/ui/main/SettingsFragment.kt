@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -46,18 +47,24 @@ class SettingsFragment : Fragment() {
             Timber.d("voice changed to ${viewModel.selectedVoiceName}")
         }
 
+        fun pct(value: Float) = "${(value * 100).toInt()}%"
+
+        val pitchValue = view.findViewById<TextView>(R.id.voicePitchValue)
         val pitchSlicer = view.findViewById<Slider>(R.id.voicePitchSlider)
-        pitchSlicer.value = viewModel.voicePitch
-        pitchSlicer.addOnChangeListener { slider, value, fromUser ->
-            Timber.d("pitch changed to $value")
+        pitchSlicer.value = viewModel.voicePitch.coerceIn(VOICE_MIN, VOICE_MAX)
+        pitchValue.text = pct(pitchSlicer.value)
+        pitchSlicer.addOnChangeListener { _, value, _ ->
             viewModel.voicePitch = value
+            pitchValue.text = pct(value)
         }
 
+        val speedValue = view.findViewById<TextView>(R.id.voiceSpeedValue)
         val speedSlicer = view.findViewById<Slider>(R.id.voiceSpeedSlider)
-        speedSlicer.value = viewModel.voicePitch
-        speedSlicer.addOnChangeListener { slider, value, fromUser ->
-            Timber.d("speed changed to $value")
+        speedSlicer.value = viewModel.voiceSpeed.coerceIn(VOICE_MIN, VOICE_MAX)
+        speedValue.text = pct(speedSlicer.value)
+        speedSlicer.addOnChangeListener { _, value, _ ->
             viewModel.voiceSpeed = value
+            speedValue.text = pct(value)
         }
 
         val saveButton: AppCompatButton = view.findViewById(R.id.saveButton)
@@ -67,6 +74,12 @@ class SettingsFragment : Fragment() {
         }
 
         return view
+    }
+
+    companion object {
+        // Must match valueFrom/valueTo on the sliders in fragment_settings.xml.
+        private const val VOICE_MIN = 0.5f
+        private const val VOICE_MAX = 2.0f
     }
 
 }

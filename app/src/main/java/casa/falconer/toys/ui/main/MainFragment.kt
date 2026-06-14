@@ -27,6 +27,7 @@ class MainFragment : Fragment() {
     }
 
     private lateinit var viewModel: MainViewModel
+    private var ttsReady = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,11 +41,18 @@ class MainFragment : Fragment() {
                     ) {
                         Timber.e("This Language is not supported")
                     } else {
-                        ttsInitialized()
+                        ttsReady = true
+                        applyTtsSettings()
                     }
                 }
             }
         })
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Re-apply settings saved in SettingsFragment; this fragment isn't recreated on return.
+        if (ttsReady) applyTtsSettings()
     }
 
     override fun onCreateView(
@@ -96,22 +104,20 @@ class MainFragment : Fragment() {
         }
     }
 
-    fun ttsInitialized() {
-        tts?.let { it ->
-            it.setSpeechRate(viewModel.voiceSpeed)
-            it.setPitch(viewModel.voicePitch)
-            val voicesMap = it.voices.filter { voice ->
-                voice.locale == ttsLanguage && !voice.isNetworkConnectionRequired
-            }.map { it.name to it }.toMap()
+    private fun applyTtsSettings() {
+        val tts = tts ?: return
+        viewModel.reloadVoiceSettings()
+        tts.setSpeechRate(viewModel.voiceSpeed)
+        tts.setPitch(viewModel.voicePitch)
 
-            val voiceNames: List<String> = voicesMap.values.map { voice -> voice.name }
-            viewModel.saveVoiceOptions(voiceNames)
+        val voicesMap = tts.voices.filter { voice ->
+            voice.locale == ttsLanguage && !voice.isNetworkConnectionRequired
+        }.associateBy { it.name }
 
-            viewModel.getSelectedVoiceName()?.let { selectedVoiceName ->
-                if (selectedVoiceName in voicesMap) {
-                    it.voice = voicesMap[selectedVoiceName]
-                }
-            }
+        viewModel.saveVoiceOptions(voicesMap.values.map { it.name })
+
+        viewModel.getSelectedVoiceName()?.let { selectedVoiceName ->
+            voicesMap[selectedVoiceName]?.let { tts.voice = it }
         }
     }
 }

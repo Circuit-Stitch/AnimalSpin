@@ -33,6 +33,12 @@ class MainViewModel : ViewModel() {
         currentAnimalNoise = getRandomAnimalNoise(animal)
     }
 
+    /** Re-read voice settings from prefs (e.g. after returning from Settings). */
+    fun reloadVoiceSettings() {
+        voiceSpeed = prefs.getVoiceSpeed()
+        voicePitch = prefs.getVoicePitch()
+    }
+
     fun saveVoiceOptions(voices: List<String>) {
         prefs.setVoiceOptions(voices)
     }
