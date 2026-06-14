@@ -17,6 +17,10 @@
     <string name="settings_btn">settings</string>
     <string name="settings">settings</string>
     <string name="voices">voices</string>
+    <string name="presets">presets</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">chipmunk</string>
     <string name="voice_pitch">voice pitch</string>
     <string name="voice_pitch_slider">voice pitch</string>
     <string name="voice_speed">voice speed</string>
