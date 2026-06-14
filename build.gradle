@@ -3,4 +3,6 @@ plugins {
     // AGP 9+ has built-in Kotlin support — no separate kotlin-android plugin needed.
     id 'com.android.application' version '9.2.1' apply false
     id 'com.android.library' version '9.2.1' apply false
+    // Compose compiler — version must match AGP's built-in Kotlin (2.2.10).
+    id 'org.jetbrains.kotlin.plugin.compose' version '2.2.10' apply false
 }

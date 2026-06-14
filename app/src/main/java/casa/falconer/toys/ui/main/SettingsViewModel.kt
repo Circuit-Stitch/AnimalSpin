@@ -1,45 +1,30 @@
 package casa.falconer.toys.ui.main
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import casa.falconer.toys.SharedPreferencesProvider
 import timber.log.Timber
 
 class SettingsViewModel : ViewModel() {
-    var prefs: SharedPreferencesProvider = SharedPreferencesProvider()
-    var voicePitch = prefs.getVoicePitch()
-    var voiceSpeed = prefs.getVoiceSpeed()
-    var selectedVoiceName = prefs.getSelectedVoiceName()
-    var voiceOptions = prefs.getVoiceOptions()
-    var voiceOptionsHashToNameMap = mutableMapOf<Int, String>()
-    var voiceOptionsNameToHashMap = mutableMapOf<String, Int>()
+    private val prefs = SharedPreferencesProvider()
 
-    init {
-        for (voiceOption in voiceOptions) {
-            voiceOptionsHashToNameMap[voiceOption.hashCode()] = voiceOption
-            voiceOptionsNameToHashMap[voiceOption] = voiceOption.hashCode()
-        }
-    }
+    val voiceOptions: List<String> = prefs.getVoiceOptions()
+    var selectedVoiceName by mutableStateOf(prefs.getSelectedVoiceName() ?: voiceOptions.firstOrNull())
+    var voicePitch by mutableStateOf(prefs.getVoicePitch().coerceIn(VOICE_MIN, VOICE_MAX))
+    var voiceSpeed by mutableStateOf(prefs.getVoiceSpeed().coerceIn(VOICE_MIN, VOICE_MAX))
 
-    fun getSelectedVoiceId(): Int? {
-        return selectedVoiceName?.let {
-            voiceOptionsNameToHashMap[it]
-        } ?: voiceOptionsNameToHashMap[voiceOptions[0]]
-    }
-
-    fun setSelectedVoiceId(id: Int) {
-        selectedVoiceName = voiceOptionsHashToNameMap[id]
-    }
-
-    fun saveOptions() {
+    fun save() {
         Timber.d("saving options")
         prefs.setVoicePitch(voicePitch)
         prefs.setVoiceSpeed(voiceSpeed)
-        selectedVoiceName?.let {
-            prefs.setSelectedVoiceName(it)
-        }
+        selectedVoiceName?.let { prefs.setSelectedVoiceName(it) }
     }
 
     companion object {
-        val TAG: String = SettingsViewModel::class.java.simpleName
+        // Must match the Slider valueRange in SettingsScreen.
+        const val VOICE_MIN = 0.5f
+        const val VOICE_MAX = 2.0f
     }
 }

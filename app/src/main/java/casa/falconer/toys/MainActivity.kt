@@ -1,14 +1,31 @@
 package casa.falconer.toys
 
 import android.os.Bundle
-import android.view.Window
-import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.material3.MaterialTheme
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import casa.falconer.toys.ui.main.MainScreen
+import casa.falconer.toys.ui.main.SettingsScreen
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        requestWindowFeature(Window.FEATURE_NO_TITLE)
-        setContentView(R.layout.activity_main)
+        setContent {
+            MaterialTheme {
+                val nav = rememberNavController()
+                NavHost(nav, startDestination = "main") {
+                    composable("main") {
+                        MainScreen(onSettings = { nav.navigate("settings") })
+                    }
+                    composable("settings") {
+                        SettingsScreen(onDone = { nav.popBackStack() })
+                    }
+                }
+            }
+        }
     }
 }
