@@ -14,7 +14,6 @@
 
     <!-- App labels -->
     <string name="app_name">Animal Spin</string>
-    <string name="settings_btn">settings</string>
     <string name="settings">settings</string>
     <string name="voices">voices</string>
     <string name="presets">presets</string>
