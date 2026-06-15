@@ -9,12 +9,14 @@ land in <out>/ with a manifest.json the caller can wire in.
 Token: env FREESOUND_TOKEN, else /tmp/fs_key. Never commit it.
 Usage: python3 filter/fetch.py monkey:9 lion:6 elephant:2 --out /tmp/fetch
 """
-import json, os, re, csv, sys, hashlib, subprocess, urllib.request, urllib.parse
+import json, os, re, csv, sys, glob, shutil, hashlib, subprocess, urllib.request, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from llm import judge
 import audio_gate
+import clap as FP
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REJECTS_DIR = os.path.join(ROOT, "filter", "rejects")   # known-bad audio corpus, fingerprinted to dedup
 TOK = (os.environ.get("FREESOUND_TOKEN") or open("/tmp/fs_key").read()).strip()
 AF = ("silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,"
       "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,"
@@ -66,6 +68,29 @@ def _ids_and_hashes():
     return seen, hashes
 
 
+def known_fps():
+    """(CLAP embedding, envelope) features to dedup candidates against (cached by file sha256):
+    every kept clip in res/raw, plus every known-bad clip archived in filter/rejects/."""
+    cache = FP.load_cache()
+    files = []
+    p = os.path.join(ROOT, "asset-credits.csv")
+    if os.path.exists(p):
+        files += [os.path.join(ROOT, r[0]) for r in list(csv.reader(open(p)))[1:]
+                  if r[0].endswith(".mp3")]   # asset-credits also tracks drawable images; skip them
+    files += glob.glob(os.path.join(REJECTS_DIR, "*.mp3"))
+    fps = [FP.feats_cached(f, cache) for f in files if os.path.exists(f)]
+    FP.save_cache(cache)
+    return fps
+
+
+def archive_reject(srcpath, animal):
+    """Copy a rejected clip into the known-bads corpus, content-addressed. Returns its sha256."""
+    os.makedirs(REJECTS_DIR, exist_ok=True)
+    h = sha(srcpath)
+    shutil.copy(srcpath, os.path.join(REJECTS_DIR, f"{animal.lower()}_{h[:12]}.mp3"))
+    return h
+
+
 # default per-animal queries; override by editing here as needed
 QUERIES = {
  "monkey": ["monkey", "chimpanzee", "macaque", "gibbon", "baboon", "howler monkey"],
@@ -93,8 +118,10 @@ QUERIES = {
 }
 
 
-def fetch_animal(animal, need, outdir, seen, rej_h, queries=None):
+def fetch_animal(animal, need, outdir, seen, rej_h, known=None, queries=None):
     os.makedirs(outdir, exist_ok=True)
+    if known is None:
+        known = known_fps()
     picks = []
     for lic in ("Creative Commons 0", "Attribution"):
         if len(picks) >= need:
@@ -134,6 +161,11 @@ def fetch_animal(animal, need, outdir, seen, rej_h, queries=None):
                 if bad:
                     print(f"  dsp-skip {nm[:40]} ({why})")
                     continue
+                cfp = FP.feats(cand)                             # perceptual net: CLAP + envelope dup
+                if any(FP.is_dup(cfp, k) for k in known):
+                    print(f"  fp-dup-skip {nm[:40]}")
+                    continue
+                known.append(cfp)
                 fn = f"{animal}_{len(picks)+1}"
                 os.replace(cand, f"{outdir}/{fn}.mp3")
                 picks.append({"file": f"{fn}.mp3", "id": s["id"], "name": nm,
@@ -146,11 +178,12 @@ if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if ":" in a]
     out = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else "/tmp/animalspin_fetch"
     seen, rej_h = _ids_and_hashes()
+    known = known_fps()
     manifest = {}
     for spec in args:
         animal, n = spec.split(":")
         print(f"== {animal} (need {n}) ==")
-        manifest[animal] = fetch_animal(animal, int(n), os.path.join(out, animal), seen, rej_h)
+        manifest[animal] = fetch_animal(animal, int(n), os.path.join(out, animal), seen, rej_h, known)
         print(f"   -> {len(manifest[animal])}/{n}")
     json.dump(manifest, open(os.path.join(out, "manifest.json"), "w"), indent=1)
     print(f"\nmanifest -> {out}/manifest.json")

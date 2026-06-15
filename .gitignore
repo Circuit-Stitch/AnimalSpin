@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# filter/ tooling: derived embedding cache, venv, python bytecode
+filter/embeddings.json
+filter/.venv/
+filter/__pycache__/
