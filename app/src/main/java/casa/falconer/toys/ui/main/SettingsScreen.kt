@@ -18,6 +18,7 @@ import androidx.compose.material3.ExposedDropdownMenuDefaults
 import androidx.compose.material3.MenuAnchorType
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Slider
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -53,13 +54,24 @@ fun SettingsScreen(onDone: () -> Unit, vm: SettingsViewModel = viewModel()) {
             textAlign = TextAlign.Center,
         )
 
-        VoiceDropdown(
-            options = vm.voiceOptions,
-            selectedId = vm.selectedVoiceId,
-            onSelect = { vm.selectedVoiceId = it },
-        )
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween,
+        ) {
+            Text(text = stringResource(R.string.speak_animal_name).uppercase())
+            Switch(checked = vm.ttsEnabled, onCheckedChange = { vm.ttsEnabled = it })
+        }
 
-        Text(text = stringResource(R.string.presets).uppercase())
+        // Voice tuning only matters when the intro is spoken.
+        if (vm.ttsEnabled) {
+            VoiceDropdown(
+                options = vm.voiceOptions,
+                selectedId = vm.selectedVoiceId,
+                onSelect = { vm.selectedVoiceId = it },
+            )
+
+            Text(text = stringResource(R.string.presets).uppercase())
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
@@ -95,6 +107,7 @@ fun SettingsScreen(onDone: () -> Unit, vm: SettingsViewModel = viewModel()) {
             value = vm.voiceSpeed,
             onChange = { vm.voiceSpeed = it },
         )
+        }
 
         Button(
             onClick = { vm.save(); onDone() },

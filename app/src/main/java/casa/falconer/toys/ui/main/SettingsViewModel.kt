@@ -19,11 +19,13 @@ class SettingsViewModel : ViewModel() {
     var selectedVoiceId by mutableStateOf(prefs.getSelectedVoiceName() ?: voiceOptions.firstOrNull()?.id)
     var voicePitch by mutableStateOf(prefs.getVoicePitch().coerceIn(VOICE_MIN, VOICE_MAX))
     var voiceSpeed by mutableStateOf(prefs.getVoiceSpeed().coerceIn(VOICE_MIN, VOICE_MAX))
+    var ttsEnabled by mutableStateOf(prefs.getTtsEnabled())
 
     fun save() {
         Timber.d("saving options")
         prefs.setVoicePitch(voicePitch)
         prefs.setVoiceSpeed(voiceSpeed)
+        prefs.setTtsEnabled(ttsEnabled)
         selectedVoiceId?.let { prefs.setSelectedVoiceName(it) }
     }
 

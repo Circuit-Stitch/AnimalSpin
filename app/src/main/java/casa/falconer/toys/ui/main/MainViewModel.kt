@@ -41,17 +41,22 @@ class MainViewModel : ViewModel() {
     }
 
     fun play(animal: Animal) {
-        if (!ttsReady) return
         val noise = noisesByAnimal[animal]?.randomOrNull() ?: return
-
         mp?.stop()
+
+        // TTS intro disabled by the parent → skip straight to the clip.
+        if (!prefs.getTtsEnabled()) {
+            playClip(noise)
+            return
+        }
+
+        if (!ttsReady) return
         applyVoiceSettings()
         tts.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
             override fun onStart(utteranceId: String?) = Timber.d("tts started")
             override fun onDone(utteranceId: String?) {
                 Timber.d("tts finished")
-                mp = MediaPlayer.create(context, noise.noiseFile)
-                mp?.start()
+                playClip(noise)
             }
 
             @Deprecated("Deprecated in Java")
@@ -59,6 +64,11 @@ class MainViewModel : ViewModel() {
         })
         val says = context.getString(animal.tts_says)
         tts.speak(says, TextToSpeech.QUEUE_FLUSH, null, says)
+    }
+
+    private fun playClip(noise: AnimalNoise) {
+        mp = MediaPlayer.create(context, noise.noiseFile)
+        mp?.start()
     }
 
     private fun applyVoiceSettings() {
