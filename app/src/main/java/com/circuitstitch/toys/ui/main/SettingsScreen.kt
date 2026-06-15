@@ -1,5 +1,6 @@
 package com.circuitstitch.toys.ui.main
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -7,6 +8,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -29,6 +31,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -115,6 +118,46 @@ fun SettingsScreen(onDone: () -> Unit, vm: SettingsViewModel = viewModel()) {
         ) {
             Text(stringResource(R.string.save_btn).uppercase())
         }
+
+        val creditsSize = with(LocalDensity.current) { dimensionResource(R.dimen.credits_text_size).toSp() }
+        val creditsLineHeight = with(LocalDensity.current) { dimensionResource(R.dimen.credits_line_height).toSp() }
+        val logoSize = dimensionResource(R.dimen.credits_logo_size)
+
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 24.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Image(
+                painter = painterResource(R.drawable.logo_circuit_stitch),
+                contentDescription = null,
+                modifier = Modifier.size(logoSize),
+            )
+            Text(
+                text = "Animal Spin\nby\nKyle Falconer\nCircuit Stitch\n2026",
+                fontSize = creditsSize,
+                lineHeight = creditsLineHeight,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.weight(1f),
+            )
+            Image(
+                painter = painterResource(R.drawable.logo_github),
+                contentDescription = null,
+                modifier = Modifier.size(logoSize),
+            )
+        }
+
+        Text(
+            text = "all sounds and images are public domain or CC BY-SA\n" +
+                "project source code is at\ngithub.com/Circuit-Stitch/AnimalSpin",
+            fontSize = creditsSize,
+            lineHeight = creditsLineHeight,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 8.dp),
+        )
     }
 }
 

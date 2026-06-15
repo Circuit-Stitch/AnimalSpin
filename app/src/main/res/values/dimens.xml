@@ -3,4 +3,9 @@
     <dimen name="preset_button_text_size">12sp</dimen>
     <dimen name="preset_button_padding_horizontal">12dp</dimen>
     <dimen name="preset_button_padding_vertical">8dp</dimen>
+
+    <!-- Credits footer at bottom of Settings. -->
+    <dimen name="credits_text_size">10sp</dimen>
+    <dimen name="credits_line_height">12sp</dimen>
+    <dimen name="credits_logo_size">56dp</dimen>
 </resources>
