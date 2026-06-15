@@ -1,0 +1,91 @@
+resource,animal,source,author,license,date_downloaded,modifications
+app/src/main/res/raw/cat_15.wav,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cat_20.wav,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cat_52.wav,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cat_68.wav,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cat_76.wav,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cat_93.wav,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cat_bsb1.mp3,Cat,https://bigsoundbank.com/UPLOAD/mp3/0436.mp3 (id 0436: Cat Purr),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/cat_bsb2.mp3,Cat,https://bigsoundbank.com/UPLOAD/mp3/0390.mp3 (id 0390: Mewing kitten 3 weeks),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/cat_bsb3.mp3,Cat,https://bigsoundbank.com/UPLOAD/mp3/0098.mp3 (id 0098: Small mewing of a cat),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/cat_bsb4.mp3,Cat,https://bigsoundbank.com/UPLOAD/mp3/0903.mp3 (id 0903: Meow),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/chicken_10.wav,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/chicken_11.wav,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/chicken_12.wav,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/chicken_2.wav,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/chicken_3.wav,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/chicken_9.wav,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/chicken_bsb1.mp3,Chicken,https://bigsoundbank.com/UPLOAD/mp3/0453.mp3 (id 0453: Annoyed Hen),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/chicken_bsb2.mp3,Chicken,https://bigsoundbank.com/UPLOAD/mp3/1040.mp3 (id 1040: Hen scared),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/chicken_bsb3.mp3,Chicken,https://bigsoundbank.com/UPLOAD/mp3/0104.mp3 (id 0104: Rooster),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/chicken_bsb4.mp3,Chicken,https://bigsoundbank.com/UPLOAD/mp3/0474.mp3 (id 0474: Song of a Rooster),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/chicken_bsb5.mp3,Chicken,https://bigsoundbank.com/UPLOAD/mp3/0955.mp3 (id 0955: Cockerel: First song),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/cow_1.wav,Cow,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cow_2.wav,Cow,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cow_3.wav,Cow,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cow_4.wav,Cow,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/cow_bsb1.mp3,Cow,https://bigsoundbank.com/UPLOAD/mp3/0845.mp3 (id 0845: Moo),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/dog_40.wav,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/dog_74.wav,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/dog_86.wav,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/dog_87.wav,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/dog_89.wav,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/dog_9.wav,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/dog_bsb1.mp3,Dog,https://bigsoundbank.com/UPLOAD/mp3/0288.mp3 (id 0288: Barking Dogs),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/dog_bsb2.mp3,Dog,https://bigsoundbank.com/UPLOAD/mp3/0112.mp3 (id 0112: Barking Dog Inside),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/dog_bsb3.mp3,Dog,https://bigsoundbank.com/UPLOAD/mp3/0682.mp3 (id 0682: Barking of a Spitz),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/donkey_1.wav,Donkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/donkey_2.wav,Donkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/donkey_3.wav,Donkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/donkey_4.wav,Donkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/donkey_bsb1.mp3,Donkey,"https://bigsoundbank.com/UPLOAD/mp3/1548.mp3 (id 1548: Donkeys, braying)",Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/duck_bsb1.mp3,Duck,https://bigsoundbank.com/UPLOAD/mp3/0276.mp3 (id 0276: Ducks),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/frog_1.wav,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/frog_3.wav,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/frog_4.wav,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/frog_5.wav,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/frog_6.wav,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/frog_bsb1.mp3,Frog,https://bigsoundbank.com/UPLOAD/mp3/0819.mp3 (id 0819: One frog),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/goat_bsb1.mp3,Goat,https://bigsoundbank.com/UPLOAD/mp3/1377.mp3 (id 1377: Goat and Young Goat),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/goat_bsb2.mp3,Goat,https://bigsoundbank.com/UPLOAD/mp3/0880.mp3 (id 0880: Dwarf goat bleating),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/goat_bsb3.mp3,Goat,https://bigsoundbank.com/UPLOAD/mp3/0821.mp3 (id 0821: Small herd of goats),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/horse_bsb1.mp3,Horse,https://bigsoundbank.com/UPLOAD/mp3/0460.mp3 (id 0460: Neighing of a horse),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/horse_neigh1.wav,Horse,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/horse_neigh3.wav,Horse,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/horse_neigh5.wav,Horse,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/horse_neigh6.wav,Horse,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_10.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_2.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_34.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_44.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_5.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_6.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/lion_7.wav,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/monkey_10.wav,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/monkey_12.wav,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/monkey_14.wav,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/monkey_15.wav,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/monkey_17.wav,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/monkey_18.wav,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/owl_bsb1.mp3,Owl,https://bigsoundbank.com/UPLOAD/mp3/0429.mp3 (id 0429: Tawny Owls),Joseph SARDIN (BigSoundBank),"BigSoundBank Free & Royalty-Free (CC0-equivalent); commercial OK, attribution not required",2026-06-14,"trim+silence-strip, capped 8s, fade-out, loudnorm -16 LUFS, mono 22.05kHz MP3"
+app/src/main/res/raw/sheep_1.wav,Sheep,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/sheep_18.wav,Sheep,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/sheep_26.wav,Sheep,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/sheep_27.wav,Sheep,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/sheep_4.wav,Sheep,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/sheep_5.wav,Sheep,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/raw/single_horse_whinny_ee100701.mp3,Horse,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/cat_1.jpg,Cat,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/cow_female_black_white.jpg,Cow,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/dog_1.jpg,Dog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/domestic_horse_essenpas_bemmel.jpg,Horse,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/donkey_in_clovelly_north_devon_england.jpg,Donkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/goat_white.jpg,Goat,https://commons.wikimedia.org/wiki/File:Beautiful_Goat_(193265569).jpeg,Ivan Andreea,CC0,2026-06-14,"cropped to centered square, resized to 500x500, JPEG q85"
+app/src/main/res/drawable/hen_chicken.jpg,Chicken,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/mallard_duck.jpg,Duck,https://commons.wikimedia.org/wiki/File:20130602_Anas_platyrhynchos_male_7466.jpg,Jakub Hałun,CC BY-SA 3.0,2026-06-14,"cropped to centered square, resized to 500x500, JPEG q85"
+app/src/main/res/drawable/monkey_portrait_animal.jpg,Monkey,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/pexels_ellie_burgin_10895600.jpg,,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/tawny_owl.jpg,Owl,https://commons.wikimedia.org/wiki/File:Poll_de_gamar%C3%BAs_eurasi%C3%A0tic_(Strix_aluco).jpg,Catalaalatac,CC BY-SA 4.0,2026-06-14,"cropped to centered square, resized to 500x500, JPEG q85"
+app/src/main/res/drawable/the_green_and_golden_bell_frog.jpg,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/variegated_golden_frog_mantella_baroni_ranomafana.jpg,Frog,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
+app/src/main/res/drawable/young_african_lion_33560925282.jpg,Lion,"UNKNOWN (pre-2026, untracked)",UNKNOWN,UNKNOWN - audit before commercial release,,UNKNOWN
