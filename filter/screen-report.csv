@@ -1,0 +1,184 @@
+resource,animal,title,verdict,reason
+app/src/main/res/raw/chipmunk_fs1.mp3,Chipmunk,Another Chipmunk Laugh.mp3,wrong,Title implies a human imitation/laughing sound.
+app/src/main/res/raw/chipmunk_fs3.mp3,Chipmunk,High pitch Wilhelm Scream Sound effect,wrong,It is a famous human-style movie sound effect
+app/src/main/res/raw/chipmunk_fs4.mp3,Chipmunk,Chipmunk Telephone Gibberish 3.mp3,wrong,Title implies human imitation or gibberish
+app/src/main/res/raw/chipmunk_fs5.mp3,Chipmunk,Chipmunk Telephone Gibberish 1.mp3,wrong,Title implies human imitation or gibberish
+app/src/main/res/raw/cicada_fs1.mp3,Cicada,Pobblebonk (Eastern Banjo Frog,wrong,"It is a frog, not a cicada."
+app/src/main/res/raw/cicada_fs2.mp3,Cicada,Pobblebonk (Eastern Banjo Frog,wrong,It is a different animal (frog).
+app/src/main/res/raw/cicada_fs4.mp3,Cicada,titi_monkey.wav,wrong,Title indicates a monkey recording
+app/src/main/res/raw/coyote_fs1.mp3,Coyote,dogs-howling-yelping-distance-far-05.wav,wrong,"Title specifies dogs, not coyotes."
+app/src/main/res/raw/coyote_fs2.mp3,Coyote,dogs-howling-yelping-distance-far-06.wav,wrong,"Title specifies dogs, not coyotes."
+app/src/main/res/raw/coyote_fs3.mp3,Coyote,dogs-howling-yelping-distance-far-07.wav,wrong,"Title specifies dogs, not coyotes."
+app/src/main/res/raw/coyote_fs4.mp3,Coyote,dogs-howling-yelping-distance-far-01.wav,wrong,"Title specifies dogs, not coyotes."
+app/src/main/res/raw/coyote_fs5.mp3,Coyote,dogs-howling-yelping-distance-far-02.wav,wrong,"Title specifies dogs, not coyotes."
+app/src/main/res/raw/cricket_fs2.mp3,Cricket,Artificial Cricket Chirp,wrong,Title explicitly states it is artificial
+app/src/main/res/raw/dolphin_fs1.mp3,Dolphin,Barbery Domestic Dolphin Sound,wrong,Barbery Domestic refers to a type of sheep
+app/src/main/res/raw/duck_fs7.mp3,Duck,"TOONAnml-Blue Snowball Microphone, CU_Duck Whistle, Quacking_Nicholas Judy_TDC",wrong,Title specifies a duck whistle
+app/src/main/res/raw/duck_fs9.mp3,Duck,Toy Ducks Quacking,wrong,Title specifies it is a toy
+app/src/main/res/raw/eagle_fs3.mp3,Eagle,Bird - Red-shouldered hawk,wrong,Red-shouldered hawk is a different species
+app/src/main/res/raw/eagle_fs5.mp3,Eagle,Gryffin Cry.mp3,wrong,Gryffin refers to a mythical creature.
+app/src/main/res/raw/elephant_fs1.mp3,Elephant,Rhinoceros Trumpeting Angry,wrong,"The title specifies a Rhinoceros, not an Elephant."
+app/src/main/res/raw/elephant_fs4.mp3,Elephant,SFX-Creaky Door like Trumpet,wrong,Title describes a creaky door sound effect
+app/src/main/res/raw/frog_fs7.mp3,Frog,wooden-frog.wav,wrong,"Title implies a wooden toy, not real animal"
+app/src/main/res/raw/horse_fs4.mp3,Horse,Theremin Horse,wrong,Theremin is a musical instrument
+app/src/main/res/raw/horse_fs9.mp3,Horse,Mules - Mule; Neigh and Short Bray,wrong,Mules are a different animal species
+app/src/main/res/raw/lion_fs1.mp3,Lion,Beast Roar lvl2.wav,wrong,Title implies game/fantasy sound effect
+app/src/main/res/raw/lion_fs3.mp3,Lion,Beast Roar lvl3.wav,wrong,Title implies game/fantasy sound effect
+app/src/main/res/raw/lion_fs10.mp3,Lion,Chimera Roar by djvanbeat.mp3,wrong,Chimera is a mythical fantasy creature
+app/src/main/res/raw/monkey_fs1.mp3,Monkey,honda-monkey-sound-6,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs3.mp3,Monkey,honda-monkey-sound-5,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs4.mp3,Monkey,honda-monkey-sound-2,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs5.mp3,Monkey,honda-monkey-sound-1,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs6.mp3,Monkey,honda-monkey-sound-8,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs7.mp3,Monkey,honda-monkey-sound-7,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs8.mp3,Monkey,honda-monkey-sound-4,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs9.mp3,Monkey,honda-monkey-sound-24,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/monkey_fs10.mp3,Monkey,honda-monkey-sound-23,wrong,Honda Monkey is a motorcycle model
+app/src/main/res/raw/parrot_fs3.mp3,Parrot,Parrots - Amazon; High-pitched Whimper,wrong,Whimper is not a parrot sound
+app/src/main/res/raw/peacock_fs5.mp3,Peacock,Fowl - Germain's Peacock Pheasant,wrong,"It is a pheasant, not a peacock."
+app/src/main/res/raw/pig_fs1.mp3,Pig,Swine - Pig; Dinosaur-like Grunt,wrong,Title specifies dinosaur-like grunt
+app/src/main/res/raw/seal_fs1.mp3,Seal,Quick sea lion bark,wrong,Sea lion is a different animal
+app/src/main/res/raw/seal_fs2.mp3,Seal,Sea Lion 3.wav,wrong,Sea lions are different animals from seals
+app/src/main/res/raw/seal_fs3.mp3,Seal,Sea Lion 1.wav,wrong,Sea lions are different animals from seals
+app/src/main/res/raw/seal_fs4.mp3,Seal,Sea Lion 2.wav,wrong,Sea lions are different animals from seals
+app/src/main/res/raw/tiger_fs4.mp3,Tiger,Angry Tiger Fantasy,wrong,Title specifies fantasy sound effect
+app/src/main/res/raw/tiger_fs5.mp3,Tiger,Large Creature or Machinery Sound.wav,wrong,Title explicitly mentions machinery or non-animal creature.
+app/src/main/res/raw/whale_fs4.mp3,Whale,Dinosaur 1.wav,wrong,"Title specifies a dinosaur, not a whale."
+app/src/main/res/raw/whale_fs5.mp3,Whale,Barbery Domestic Dolphin Sound,wrong,"It is a dolphin, not a whale."
+app/src/main/res/raw/wolf_fs1.mp3,Wolf,werewolf_howl_01,wrong,Title specifies a fantasy werewolf sound
+app/src/main/res/raw/bear_fs1.mp3,Bear,growl3.wav,unclear,"Generic title, no context provided"
+app/src/main/res/raw/bear_fs2.mp3,Bear,Roar.wav,unclear,Title is generic and lacks species info
+app/src/main/res/raw/bear_fs3.mp3,Bear,BEARGrowl_02.wav,unclear,Title implies bear growl but lacks context
+app/src/main/res/raw/bear_fs4.mp3,Bear,BEARGrowl_03.wav,unclear,Title implies bear growl but lacks context
+app/src/main/res/raw/bear_fs5.mp3,Bear,BEARGrowl_01.wav,unclear,Title implies bear but lacks context
+app/src/main/res/raw/cat_bsb1.mp3,Cat,Cat Purr,unclear,Title describes a cat sound but lacks context
+app/src/main/res/raw/cat_bsb4.mp3,Cat,Meow,unclear,Title is generic and could be real.
+app/src/main/res/raw/cat_fs3.mp3,Cat,cat meow,unclear,Title is generic and lacks specific context
+app/src/main/res/raw/cat_fs4.mp3,Cat,cat meow II,unclear,Title implies a cat but lacks proof
+app/src/main/res/raw/chicken_bsb1.mp3,Chicken,Annoyed Hen,unclear,Title implies a real chicken behavior.
+app/src/main/res/raw/chicken_bsb2.mp3,Chicken,Hen scared,unclear,Title implies a real hen's behavior.
+app/src/main/res/raw/chicken_bsb3.mp3,Chicken,Rooster,unclear,"Title refers to a chicken, but lacks detail."
+app/src/main/res/raw/chicken_bsb4.mp3,Chicken,Song of a Rooster,unclear,"Title refers to a rooster, which is chicken."
+app/src/main/res/raw/chicken_fs3.mp3,Chicken,Chicken Clucking,unclear,Title describes chicken behavior but lacks context
+app/src/main/res/raw/chicken_fs4.mp3,Chicken,chicken clucking.mp3,unclear,Title is plain but could be real
+app/src/main/res/raw/chicken_fs5.mp3,Chicken,Chicken Single Alarm Call,unclear,Title describes a specific chicken behavior.
+app/src/main/res/raw/chipmunk_fs2.mp3,Chipmunk,Chipmunk Laugh.mp3,unclear,Ambiguous title; could be imitation or real.
+app/src/main/res/raw/cicada_fs3.mp3,Cicada,D119 Ticking Bug Ambience.WAV,unclear,Ticking bug could be a cicada
+app/src/main/res/raw/cicada_fs5.mp3,Cicada,RIVER AND CICADAS - 1,unclear,Title implies cicadas are present.
+app/src/main/res/raw/cicada_fs6.mp3,Cicada,Cicadas - boring,unclear,Title is subjective and does not exclude authenticity
+app/src/main/res/raw/cicada_fs7.mp3,Cicada,crickets katydids cicadas insect sound at night,unclear,Includes cicadas but also other insects
+app/src/main/res/raw/cicada_fs8.mp3,Cicada,Cicada,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/cicada_fs9.mp3,Cicada,Ambiance_Cicadas_Loop_02.wav,unclear,Title suggests a loop of cicadas.
+app/src/main/res/raw/cicada_fs10.mp3,Cicada,Summer time cicada.MP3,unclear,Title describes a cicada but lacks detail.
+app/src/main/res/raw/cow_bsb1.mp3,Cow,Moo,unclear,Title is generic and lacks identifying details
+app/src/main/res/raw/cow_fs1.mp3,Cow,Cow moo #7,unclear,Title is generic but describes cow sound
+app/src/main/res/raw/cow_fs2.mp3,Cow,Moo 2 - Moo Moo the Cow,unclear,Title is ambiguous and could be imitation.
+app/src/main/res/raw/cow_fs3.mp3,Cow,Cow moo #4,unclear,Title implies cow sound but lacks context
+app/src/main/res/raw/cow_fs4.mp3,Cow,Cow moo #6,unclear,Title is plain but describes cow sound
+app/src/main/res/raw/cow_fs5.mp3,Cow,Moo 1 - Moo Moo the Cow,unclear,Title is ambiguous and could be imitation.
+app/src/main/res/raw/cow_fs6.mp3,Cow,Cow moo #2,unclear,Title is plain but implies real cow
+app/src/main/res/raw/cow_fs7.mp3,Cow,Cow Moo three times,unclear,Title describes cow behavior but lacks context
+app/src/main/res/raw/cow_fs8.mp3,Cow,Moo 3 - Moo Moo the Cow,unclear,Title is ambiguous and could be imitation.
+app/src/main/res/raw/cow_fs9.mp3,Cow,Cow moo #3,unclear,Title is plain but implies real cow
+app/src/main/res/raw/cricket_fs4.mp3,Cricket,Cricket Chirp,unclear,Title is generic and could be real.
+app/src/main/res/raw/cricket_fs5.mp3,Cricket,Cricket 1.wav,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/crow_fs1.mp3,Crow,Unusual Crow Caw Call 2,unclear,Title describes a crow but lacks verification
+app/src/main/res/raw/crow_fs2.mp3,Crow,Unusual Crow Caw Call 1,unclear,Title describes a crow but is ambiguous.
+app/src/main/res/raw/crow_fs4.mp3,Crow,Crow Caw,unclear,Title describes the sound but lacks context.
+app/src/main/res/raw/dog_bsb1.mp3,Dog,Barking Dogs,unclear,Title implies dogs but lacks specific detail
+app/src/main/res/raw/dog_bsb2.mp3,Dog,Barking Dog Inside,unclear,Title implies a real dog recording.
+app/src/main/res/raw/dog_fs1.mp3,Dog,Dogs bark and howl,unclear,Title describes dog behavior but lacks detail
+app/src/main/res/raw/dog_fs2.mp3,Dog,Animal Dog Bark 01.wav,unclear,Title is generic and could be real
+app/src/main/res/raw/dog_fs3.mp3,Dog,Dog Barking Distance - 1.wav,unclear,Title implies a real dog recording.
+app/src/main/res/raw/dog_fs4.mp3,Dog,Dog Barking Distance - 2.wav,unclear,Title implies a real dog recording.
+app/src/main/res/raw/dog_fs5.mp3,Dog,Animal Dog Bark 21.wav,unclear,Title is generic and could be real
+app/src/main/res/raw/dog_fs7.mp3,Dog,dog bark.wav,unclear,Title is generic and lacks distinguishing details
+app/src/main/res/raw/dolphin_fs2.mp3,Dolphin,DOLPHIN_SFX_3,unclear,"Generic title, no metadata to confirm authenticity"
+app/src/main/res/raw/dolphin_fs3.mp3,Dolphin,Dolphin Noise-.wav,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/dolphin_fs4.mp3,Dolphin,DOLPHIN_SFX_1,unclear,Generic title provides no identifying information
+app/src/main/res/raw/dolphin_fs5.mp3,Dolphin,DOLPHIN_SFX_2,unclear,Title is generic and lacks descriptive detail
+app/src/main/res/raw/donkey_bsb1.mp3,Donkey,"Donkeys, braying",unclear,Title describes donkey behavior but lacks context
+app/src/main/res/raw/donkey_fs4.mp3,Donkey,Donkey Bray,unclear,Title describes a donkey sound but lacks context.
+app/src/main/res/raw/donkey_fs8.mp3,Donkey,S02-01 Donkey braying.wav,unclear,Title describes donkey braying but lacks context
+app/src/main/res/raw/donkey_fs9.mp3,Donkey,Idiotic Donkey Braying Sound Effect,unclear,Describes donkey behavior but lacks specific origin.
+app/src/main/res/raw/duck_bsb1.mp3,Duck,Ducks,unclear,Title is too generic to verify source
+app/src/main/res/raw/duck_fs1.mp3,Duck,Duck Softly Quacking Twice,unclear,Title describes duck behavior but lacks context
+app/src/main/res/raw/duck_fs2.mp3,Duck,Duck Quacking Quietly Twice,unclear,Title describes duck behavior but lacks source info
+app/src/main/res/raw/duck_fs3.mp3,Duck,Duck Quack,unclear,Title is generic and lacks specific context
+app/src/main/res/raw/duck_fs4.mp3,Duck,Duck Quacking Twice,unclear,Title describes duck behavior but lacks source info
+app/src/main/res/raw/duck_fs5.mp3,Duck,Duck Quacking Loudly Three Times,unclear,Title describes duck behavior but lacks source info
+app/src/main/res/raw/duck_fs8.mp3,Duck,Duck Quack,unclear,Title is generic and could be real.
+app/src/main/res/raw/eagle_fs1.mp3,Eagle,Eagle Cry.wav,unclear,Title is generic and lacks distinguishing metadata
+app/src/main/res/raw/eagle_fs2.mp3,Eagle,Đại Bàng Trên Không,unclear,Title translates to Eagle in the sky
+app/src/main/res/raw/eagle_fs4.mp3,Eagle,baldeagle-flap_and_cry.ogg,unclear,"Title suggests eagle, but lacks verification."
+app/src/main/res/raw/elephant_fs2.mp3,Elephant,Angry Elephant.aiff,unclear,Title describes behavior but lacks species confirmation
+app/src/main/res/raw/elephant_fs3.mp3,Elephant,Elephant sound,unclear,Title is generic and lacks distinguishing details
+app/src/main/res/raw/elephant_fs5.mp3,Elephant,Elephant Trumpets Growls.flac,unclear,Title describes elephant sounds but lacks context.
+app/src/main/res/raw/fox_fs1.mp3,Fox,Fox Call - Cleanup of sound by Janneair,unclear,Title implies post-processed real fox recording
+app/src/main/res/raw/fox_fs2.mp3,Fox,Barking 1.wav,unclear,"Generic title, could be any animal."
+app/src/main/res/raw/fox_fs3.mp3,Fox,Barking 4.wav,unclear,Barking is too generic to identify species
+app/src/main/res/raw/fox_fs4.mp3,Fox,Barking 5.wav,unclear,Barking is too generic to identify species
+app/src/main/res/raw/fox_fs5.mp3,Fox,Barking 2.wav,unclear,Barking is too generic to identify species
+app/src/main/res/raw/frog_bsb1.mp3,Frog,ranas conucos frogs.aif,unclear,Title refers to frogs but lacks detail
+app/src/main/res/raw/frog_fs1.mp3,Frog,Frogs croaking.wav,unclear,Title describes the sound but lacks context.
+app/src/main/res/raw/frog_fs3.mp3,Frog,frog croak.wav,unclear,Title is generic and lacks distinguishing metadata
+app/src/main/res/raw/frog_fs4.mp3,Frog,Frog Croak,unclear,Title describes the sound but lacks context.
+app/src/main/res/raw/frog_fs5.mp3,Frog,Frog.ogg,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/frog_fs6.mp3,Frog,Frog.m4a,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/frog_fs8.mp3,Frog,frog.mp3,unclear,Title is generic and lacks identifying details
+app/src/main/res/raw/goat_bsb1.mp3,Goat,Goat and Young Goat,unclear,Title describes goats but lacks audio context
+app/src/main/res/raw/goat_bsb3.mp3,Goat,Goats - Billy in Rut,unclear,Title is ambiguous and lacks descriptive context
+app/src/main/res/raw/goose_fs2.mp3,Goose,Goose Trumpet (loud honk,unclear,Ambiguous if 'Trumpet' refers to sound or instrument
+app/src/main/res/raw/goose_fs4.mp3,Goose,Goose Honks - Multiple,unclear,Title describes goose sounds but lacks detail
+app/src/main/res/raw/goose_fs5.mp3,Goose,Bird Honk - 2.wav,unclear,Generic title could be any bird species
+app/src/main/res/raw/horse_fs5.mp3,Horse,horse.mp3,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/horse_fs7.mp3,Horse,Horse_neighing.wav,unclear,Title describes horse behavior but lacks context.
+app/src/main/res/raw/hyena_fs1.mp3,Hyena,HyenaLaugh2.wav,unclear,Title is generic and could be real.
+app/src/main/res/raw/hyena_fs2.mp3,Hyena,HyenaLaugh1.wav,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/hyena_fs3.mp3,Hyena,HyenaLaugh0.wav,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/hyena_fs4.mp3,Hyena,HyenaLaugh3.wav,unclear,Title is generic and could be real.
+app/src/main/res/raw/hyena_fs5.mp3,Hyena,Hyena Moan 0,unclear,Title describes a specific hyena sound behavior.
+app/src/main/res/raw/lion_fs2.mp3,Lion,poujade_eva_2020_2021_RoarOfLion(son2,unclear,Title implies a lion roar recording
+app/src/main/res/raw/lion_fs4.mp3,Lion,Beast Roar.wav,unclear,Beast is too generic to identify species
+app/src/main/res/raw/lion_fs5.mp3,Lion,Leo Season,unclear,Title is ambiguous and lacks specific details
+app/src/main/res/raw/lion_fs6.mp3,Lion,lion.wav,unclear,Title is generic and lacks distinguishing information
+app/src/main/res/raw/lion_fs7.mp3,Lion,S01-09_Short lion roars.wav,unclear,Title describes a lion roar but lacks context.
+app/src/main/res/raw/lion_fs8.mp3,Lion,Beastly Roar 2,unclear,Title is generic and lacks specific species info
+app/src/main/res/raw/lion_fs9.mp3,Lion,Beastly Roar,unclear,Title is generic and does not specify species
+app/src/main/res/raw/owl_bsb1.mp3,Owl,Tawny Owls,unclear,Title refers to a specific owl species.
+app/src/main/res/raw/owl_fs2.mp3,Owl,owl_hooting_000102_0145S3 002-070 000-002 007-015.wav,unclear,Filename contains no descriptive information
+app/src/main/res/raw/owl_fs4.mp3,Owl,Owl Hoot,unclear,Title is generic and could be real.
+app/src/main/res/raw/owl_fs5.mp3,Owl,owl_hooting_000102_0145S3 002-070 000-002 068-074.wav,unclear,Title contains no descriptive information
+app/src/main/res/raw/owl_fs6.mp3,Owl,owl_hooting_000102_0145S3 002-070 000-002 037-044.wav,unclear,Title contains only generic file naming metadata
+app/src/main/res/raw/owl_fs8.mp3,Owl,Crickets and Owl,unclear,Contains owl but also crickets.
+app/src/main/res/raw/owl_fs9.mp3,Owl,Owl.wav,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/parrot_fs1.mp3,Parrot,Parrots.wav,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/parrot_fs5.mp3,Parrot,Parrots - Amazon;,unclear,Title is specific but lacks recording context
+app/src/main/res/raw/peacock_fs1.mp3,Peacock,Peacock call,unclear,Title is generic but describes target animal
+app/src/main/res/raw/peacock_fs2.mp3,Peacock,"Bird, Peacock Call",unclear,Title describes a peacock but lacks detail.
+app/src/main/res/raw/peacock_fs3.mp3,Peacock,deep pitch peacock call sound,unclear,describes a peacock call but lacks context
+app/src/main/res/raw/peacock_fs4.mp3,Peacock,Plaka Forest.mp3,unclear,"Title refers to location, not animal species"
+app/src/main/res/raw/peacock_fs6.mp3,Peacock,Peacock July 2022.mp3,unclear,Title implies a specific recording date.
+app/src/main/res/raw/penguin_fs1.mp3,Penguin,Penguin Squeak,unclear,Title describes a plausible penguin sound.
+app/src/main/res/raw/penguin_fs2.mp3,Penguin,ChargingPenguin.ogg,unclear,Ambiguous title; could be real or fantasy.
+app/src/main/res/raw/penguin_fs5.mp3,Penguin,16-BalbuceoPinguinoRapido.wav,unclear,Title translates to fast penguin babbling
+app/src/main/res/raw/pig_fs2.mp3,Pig,Oink.mp3,unclear,Title is generic and could be anything.
+app/src/main/res/raw/pig_fs3.mp3,Pig,Pig - Moan 1 - 96kHz.wav,unclear,Title describes a pig sound but lacks context
+app/src/main/res/raw/seal_fs5.mp3,Seal,Sound of a Seal,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/sheep_fs6.mp3,Sheep,sheep 2.mp3,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/sheep_fs7.mp3,Sheep,sheep 3.mp3,unclear,Title is generic and lacks descriptive metadata
+app/src/main/res/raw/sheep_fs10.mp3,Sheep,sheep 1,unclear,Title is too generic to verify
+app/src/main/res/raw/snake_fs1.mp3,Snake,Snake Hiss,unclear,Title describes a snake sound but lacks context
+app/src/main/res/raw/snake_fs4.mp3,Snake,Hisss 2.m4a,unclear,Onomatopoeia is ambiguous without further context
+app/src/main/res/raw/snake_fs5.mp3,Snake,Hisss.m4a,unclear,Onomatopoeia is ambiguous and lacks context.
+app/src/main/res/raw/squirrel_fs3.mp3,Squirrel,Squirrel chattering sound effect,unclear,"Title implies SFX, could be real or imitation"
+app/src/main/res/raw/squirrel_fs4.mp3,Squirrel,Red Squirrel.wav,unclear,Title specifies species but lacks audio context
+app/src/main/res/raw/tiger_fs1.mp3,Tiger,Tiger Roar,unclear,Title is generic and lacks distinguishing metadata
+app/src/main/res/raw/tiger_fs2.mp3,Tiger,Roar.m4a,unclear,Title is too generic to identify species
+app/src/main/res/raw/tiger_fs3.mp3,Tiger,Hiss Roar.mp3,unclear,Title describes tiger behaviors but lacks species identification
+app/src/main/res/raw/whale_fs1.mp3,Whale,whale song,unclear,Title is generic and could be real.
+app/src/main/res/raw/whale_fs2.mp3,Whale,Baleines.wav,unclear,Title means whales but lacks specific detail
+app/src/main/res/raw/whale_fs3.mp3,Whale,Thằn Lằn Khổng Lộ Nước,unclear,Title is Vietnamese for 'Large Water Area'
+app/src/main/res/raw/wolf_fs2.mp3,Wolf,22_Lobo_aullando.wav,unclear,"Lobo means wolf, but title is ambiguous"
+app/src/main/res/raw/wolf_fs4.mp3,Wolf,wolf 3.wav,unclear,Title is generic and lacks distinguishing info
+app/src/main/res/raw/wolf_fs5.mp3,Wolf,Howl of the night,unclear,Title is too generic to identify species
