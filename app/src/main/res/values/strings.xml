@@ -14,6 +14,29 @@
     <string name="tts_monkey_says">the monkey says</string>
     <string name="tts_owl_says">the owl says</string>
     <string name="tts_sheep_says">the sheep says</string>
+    <string name="tts_bear_says">the bear says</string>
+    <string name="tts_chipmunk_says">the chipmunk says</string>
+    <string name="tts_cicada_says">the cicada says</string>
+    <string name="tts_coyote_says">the coyote says</string>
+    <string name="tts_cricket_says">the cricket says</string>
+    <string name="tts_crow_says">the crow says</string>
+    <string name="tts_dolphin_says">the dolphin says</string>
+    <string name="tts_eagle_says">the eagle says</string>
+    <string name="tts_elephant_says">the elephant says</string>
+    <string name="tts_fox_says">the fox says</string>
+    <string name="tts_goose_says">the goose says</string>
+    <string name="tts_hyena_says">the hyena says</string>
+    <string name="tts_parrot_says">the parrot says</string>
+    <string name="tts_peacock_says">the peacock says</string>
+    <string name="tts_penguin_says">the penguin says</string>
+    <string name="tts_pig_says">the pig says</string>
+    <string name="tts_seal_says">the seal says</string>
+    <string name="tts_snake_says">the snake says</string>
+    <string name="tts_squirrel_says">the squirrel says</string>
+    <string name="tts_tiger_says">the tiger says</string>
+    <string name="tts_whale_says">the whale says</string>
+    <string name="tts_wolf_says">the wolf says</string>
+    <string name="tts_zebra_says">the zebra says</string>
 
     <!-- App labels -->
     <string name="app_name">Animal Spin</string>
