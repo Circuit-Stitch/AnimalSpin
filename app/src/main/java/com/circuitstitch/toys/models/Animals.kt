@@ -16,13 +16,13 @@ enum class Animal(@DrawableRes val image: Int, @StringRes val tts_says: Int) {
     CRICKET(R.drawable.cricket, R.string.tts_cricket_says),
     CROW(R.drawable.crow, R.string.tts_crow_says),
     DOG(R.drawable.dog_1, R.string.tts_dog_says),
-    DOLPHIN(R.drawable.dolphin, R.string.tts_dolphin_says),
+    // on ice: DOLPHIN — only 2 usable CC0 clips; re-add when better audio exists (image+clips kept)
     DONKEY(R.drawable.donkey_in_clovelly_north_devon_england, R.string.tts_donkey_says),
     DUCK(R.drawable.mallard_duck, R.string.tts_duck_says),
     // on ice: EAGLE — only 4 usable CC0 clips; re-add when better audio exists (image+clips kept)
     // on ice: ELEPHANT — only 4 usable CC0 clips; re-add when better audio exists (image+clips kept)
     // on ice: FOX — only 4 usable CC0 clips; re-add when better audio exists (image+clips kept)
-    FROG(R.drawable.the_green_and_golden_bell_frog, R.string.tts_frog_says),
+    FROG(R.drawable.frog, R.string.tts_frog_says),
     GOAT(R.drawable.goat_white, R.string.tts_goat_says),
     GOOSE(R.drawable.goose, R.string.tts_goose_says),
     HORSE(R.drawable.domestic_horse_essenpas_bemmel, R.string.tts_horse_says),
@@ -32,7 +32,7 @@ enum class Animal(@DrawableRes val image: Int, @StringRes val tts_says: Int) {
     OWL(R.drawable.tawny_owl, R.string.tts_owl_says),
     PARROT(R.drawable.parrot, R.string.tts_parrot_says),
     PEACOCK(R.drawable.peacock, R.string.tts_peacock_says),
-    PENGUIN(R.drawable.penguin, R.string.tts_penguin_says),
+    // on ice: PENGUIN — only 2 usable CC0 clips; re-add when better audio exists (image+clips kept)
     PIG(R.drawable.pig, R.string.tts_pig_says),
     // ponytail: SEAL held out — only CC0 'seal' clips are sea lions or too borderline; re-add when a clear one exists (seal.jpg kept)
     SHEEP(R.drawable.pexels_ellie_burgin_10895600, R.string.tts_sheep_says),
@@ -132,8 +132,6 @@ class AnimalNoise(val animal: Animal, @RawRes val noiseFile: Int) {
             AnimalNoise(Animal.CROW, R.raw.crow_fs3),
             AnimalNoise(Animal.CROW, R.raw.crow_fs4),
             AnimalNoise(Animal.CROW, R.raw.crow_fs5),
-            AnimalNoise(Animal.DOLPHIN, R.raw.dolphin_fs3),
-            AnimalNoise(Animal.DOLPHIN, R.raw.dolphin_fs5),
             AnimalNoise(Animal.GOOSE, R.raw.goose_fs1),
             AnimalNoise(Animal.GOOSE, R.raw.goose_fs2),
             AnimalNoise(Animal.GOOSE, R.raw.goose_fs3),
@@ -153,8 +151,6 @@ class AnimalNoise(val animal: Animal, @RawRes val noiseFile: Int) {
             AnimalNoise(Animal.PEACOCK, R.raw.peacock_fs2),
             AnimalNoise(Animal.PEACOCK, R.raw.peacock_fs3),
             AnimalNoise(Animal.PEACOCK, R.raw.peacock_fs4),
-            AnimalNoise(Animal.PENGUIN, R.raw.penguin_fs1),
-            AnimalNoise(Animal.PENGUIN, R.raw.penguin_fs4),
             AnimalNoise(Animal.PIG, R.raw.pig_fs1),
             AnimalNoise(Animal.PIG, R.raw.pig_fs2),
             AnimalNoise(Animal.PIG, R.raw.pig_fs3),
