@@ -1,4 +1,4 @@
-package casa.falconer.toys
+package com.circuitstitch.toys
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,8 +9,8 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import casa.falconer.toys.ui.main.MainScreen
-import casa.falconer.toys.ui.main.SettingsScreen
+import com.circuitstitch.toys.ui.main.MainScreen
+import com.circuitstitch.toys.ui.main.SettingsScreen
 
 class MainActivity : ComponentActivity() {
 

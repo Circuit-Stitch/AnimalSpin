@@ -1,4 +1,4 @@
-package casa.falconer.toys.ui.main
+package com.circuitstitch.toys.ui.main
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -22,7 +22,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import casa.falconer.toys.models.Animal
+import com.circuitstitch.toys.models.Animal
 import kotlin.math.atan2
 import kotlin.math.cos
 import kotlin.math.hypot

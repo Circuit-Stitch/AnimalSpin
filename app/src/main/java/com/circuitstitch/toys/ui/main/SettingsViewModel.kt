@@ -1,12 +1,12 @@
-package casa.falconer.toys.ui.main
+package com.circuitstitch.toys.ui.main
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import casa.falconer.toys.R
-import casa.falconer.toys.SharedPreferencesProvider
+import com.circuitstitch.toys.R
+import com.circuitstitch.toys.SharedPreferencesProvider
 import timber.log.Timber
 
 class SettingsViewModel : ViewModel() {

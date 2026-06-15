@@ -1,15 +1,15 @@
-package casa.falconer.toys.ui.main
+package com.circuitstitch.toys.ui.main
 
 import android.media.MediaPlayer
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.speech.tts.Voice
 import androidx.lifecycle.ViewModel
-import casa.falconer.toys.AnimalSpinApp
-import casa.falconer.toys.SharedPreferencesProvider
-import casa.falconer.toys.models.Animal
-import casa.falconer.toys.models.AnimalNoise
-import casa.falconer.toys.models.AnimalNoise.Companion.animal_sounds
+import com.circuitstitch.toys.AnimalSpinApp
+import com.circuitstitch.toys.SharedPreferencesProvider
+import com.circuitstitch.toys.models.Animal
+import com.circuitstitch.toys.models.AnimalNoise
+import com.circuitstitch.toys.models.AnimalNoise.Companion.animal_sounds
 import timber.log.Timber
 import java.util.Locale
 

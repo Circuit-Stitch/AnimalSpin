@@ -14,7 +14,7 @@ Animal Spin — an offline Android app for toddlers (1.5+). Tap an animal → TT
 ./gradlew test                   # JVM unit tests (app/src/test)
 ./gradlew connectedAndroidTest   # instrumented tests (needs a device/emulator)
 ./gradlew lint                   # Android Lint
-./gradlew :app:testDebugUnitTest --tests "casa.falconer.toys.ExampleUnitTest"   # single test
+./gradlew :app:testDebugUnitTest --tests "com.circuitstitch.toys.ExampleUnitTest"   # single test
 ```
 
 No CI config and the test dirs contain only the template `Example*Test` classes, so tests are effectively unestablished.
@@ -27,7 +27,7 @@ No CI config and the test dirs contain only the template `Example*Test` classes,
 
 ## Naming gotchas
 
-- **Package / namespace is `casa.falconer.toys`** but **`applicationId` is `casa.falconer`** (`app/build.gradle`). They differ on purpose — don't "fix" one to match the other.
+- **Package / namespace is `com.circuitstitch.toys`** but **`applicationId` is `com.circuitstitch`** (`app/build.gradle`). They differ on purpose (namespace = applicationId + `.toys`) — don't "fix" one to match the other.
 - Gradle `rootProject.name` is `Animals`, the app name is "Animal Spin", the class prefix is `AnimalSpin`, and the package is `toys`. All refer to the same app.
 - Debug and release builds use different launcher icons via `manifestPlaceholders` (`appIcon`/`appIconRound`), so both can be installed side by side.
 

@@ -1,4 +1,4 @@
-package casa.falconer.toys.ui.main
+package com.circuitstitch.toys.ui.main
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -34,9 +34,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import casa.falconer.toys.R
-import casa.falconer.toys.ui.main.SettingsViewModel.Companion.VOICE_MAX
-import casa.falconer.toys.ui.main.SettingsViewModel.Companion.VOICE_MIN
+import com.circuitstitch.toys.R
+import com.circuitstitch.toys.ui.main.SettingsViewModel.Companion.VOICE_MAX
+import com.circuitstitch.toys.ui.main.SettingsViewModel.Companion.VOICE_MIN
 
 @Composable
 fun SettingsScreen(onDone: () -> Unit, vm: SettingsViewModel = viewModel()) {

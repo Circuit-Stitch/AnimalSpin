@@ -1,4 +1,4 @@
-package casa.falconer.toys
+package com.circuitstitch.toys
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("casa.falconer", appContext.packageName)
+        assertEquals("com.circuitstitch", appContext.packageName)
     }
 }

@@ -7,11 +7,11 @@ plugins {
 
 
 android {
-    namespace 'casa.falconer.toys'
+    namespace 'com.circuitstitch.toys'
     compileSdk 36
 
     defaultConfig {
-        applicationId "casa.falconer"
+        applicationId "com.circuitstitch"
         minSdk 23   // Material 1.14 requires 23; <23 devices are effectively extinct
         targetSdk 36
         versionCode 1

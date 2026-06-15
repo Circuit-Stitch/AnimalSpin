@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Animals"
-        android:name="casa.falconer.toys.AnimalSpinApp"
+        android:name="com.circuitstitch.toys.AnimalSpinApp"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"

@@ -1,9 +1,9 @@
-package casa.falconer.toys.models
+package com.circuitstitch.toys.models
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.RawRes
 import androidx.annotation.StringRes
-import casa.falconer.toys.R
+import com.circuitstitch.toys.R
 
 enum class Animal(@DrawableRes val image: Int, @StringRes val tts_says: Int) {
     BEAR(R.drawable.bear, R.string.tts_bear_says),
