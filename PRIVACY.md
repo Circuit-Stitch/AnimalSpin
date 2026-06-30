@@ -2,7 +2,7 @@
 
 **Effective date:** June 30, 2026
 **Developer:** Circuit Stitch
-**Contact:** kfalconer@gmail.com
+**Contact:** kyle@circuitstitch.com
 
 Animal Spin is an offline app for young children. We designed it to collect
 **nothing**.
