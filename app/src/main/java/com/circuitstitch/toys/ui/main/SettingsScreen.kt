@@ -2,6 +2,7 @@ package com.circuitstitch.toys.ui.main
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -10,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
@@ -43,9 +45,12 @@ import com.circuitstitch.toys.ui.main.SettingsViewModel.Companion.VOICE_MIN
 
 @Composable
 fun SettingsScreen(onDone: () -> Unit, vm: SettingsViewModel = viewModel()) {
+    Box(modifier = Modifier.fillMaxSize()) {
     Column(
         modifier = Modifier
-            .fillMaxSize()
+            .widthIn(max = 480.dp) // ponytail: cap width before fillMaxWidth so tablets don't spread edge-to-edge
+            .fillMaxWidth()
+            .align(Alignment.TopCenter)
             .verticalScroll(rememberScrollState())
             .padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -158,6 +163,7 @@ fun SettingsScreen(onDone: () -> Unit, vm: SettingsViewModel = viewModel()) {
                 .fillMaxWidth()
                 .padding(top = 8.dp),
         )
+    }
     }
 }
 
