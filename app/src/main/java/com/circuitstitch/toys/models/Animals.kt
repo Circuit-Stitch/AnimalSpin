@@ -36,11 +36,11 @@ enum class Animal(@DrawableRes val image: Int, @StringRes val tts_says: Int) {
     PIG(R.drawable.pig, R.string.tts_pig_says),
     // ponytail: SEAL held out — only CC0 'seal' clips are sea lions or too borderline; re-add when a clear one exists (seal.jpg kept)
     SHEEP(R.drawable.pexels_ellie_burgin_10895600, R.string.tts_sheep_says),
-    SNAKE(R.drawable.snake, R.string.tts_snake_says),
+    // on ice: SNAKE — trimmed to 24 for clean grid tiling; fewest clips (3) + faint hiss (image+clips kept)
     SQUIRREL(R.drawable.squirrel, R.string.tts_squirrel_says),
     TIGER(R.drawable.tiger, R.string.tts_tiger_says),
     // on ice: WHALE — only 3 usable CC0 clips; re-add when better audio exists (image+clips kept)
-    WOLF(R.drawable.wolf, R.string.tts_wolf_says),
+    // on ice: WOLF — trimmed to 24 for clean grid tiling; only 3 clips (image+clips kept)
     // ponytail: ZEBRA held out of the app — only 1 CC0 clip exists; re-add when more found (zebra.jpg + zebra_fs1.mp3 kept)
 }
 
@@ -212,9 +212,6 @@ class AnimalNoise(val animal: Animal, @RawRes val noiseFile: Int) {
             AnimalNoise(Animal.SHEEP, R.raw.sheep_fs5),
             AnimalNoise(Animal.SHEEP, R.raw.sheep_fs7),
             AnimalNoise(Animal.SHEEP, R.raw.sheep_fs8),
-            AnimalNoise(Animal.SNAKE, R.raw.snake_fs1),
-            AnimalNoise(Animal.SNAKE, R.raw.snake_fs3),
-            AnimalNoise(Animal.SNAKE, R.raw.snake_fs5),
             AnimalNoise(Animal.SQUIRREL, R.raw.squirrel_fs1),
             AnimalNoise(Animal.SQUIRREL, R.raw.squirrel_fs4),
             AnimalNoise(Animal.SQUIRREL, R.raw.squirrel_fs5),
@@ -223,9 +220,6 @@ class AnimalNoise(val animal: Animal, @RawRes val noiseFile: Int) {
             AnimalNoise(Animal.TIGER, R.raw.tiger_fs3),
             AnimalNoise(Animal.TIGER, R.raw.tiger_fs4),
             AnimalNoise(Animal.TIGER, R.raw.tiger_fs5),
-            AnimalNoise(Animal.WOLF, R.raw.wolf_fs1),
-            AnimalNoise(Animal.WOLF, R.raw.wolf_fs2),
-            AnimalNoise(Animal.WOLF, R.raw.wolf_fs3),
         )
     }
 }

@@ -4,8 +4,8 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.circuitstitch.toys.models.Animal
 import kotlin.math.atan2
+import kotlin.math.ceil
 import kotlin.math.cos
 import kotlin.math.hypot
 import kotlin.math.sin
@@ -34,7 +35,7 @@ fun MainScreen(onSettings: () -> Unit, vm: MainViewModel = viewModel()) {
     // button, which a toddler could tap. onSettings is recreated each recomposition, so the
     // long-lived gesture coroutine reads the latest via rememberUpdatedState.
     val onSettingsNow by rememberUpdatedState(onSettings)
-    Box(
+    BoxWithConstraints(
         Modifier
             .fillMaxSize()
             .pointerInput(Unit) {
@@ -59,7 +60,16 @@ fun MainScreen(onSettings: () -> Unit, vm: MainViewModel = viewModel()) {
                 }
             },
     ) {
-        LazyVerticalGrid(columns = GridCells.Fixed(2), modifier = Modifier.fillMaxSize()) {
+        // Columns = how many ~200dp cells fit across, min 2 — so cells stay finger-big. Phones get
+        // 2 fat columns; tablets get more. (24 animals, 200dp: ~10in portrait→4, ~10in landscape→6.)
+        val columns = (maxWidth / 200.dp).toInt().coerceAtLeast(2)
+        val rows = ceil(Animal.entries.size / columns.toFloat()).toInt()
+        val cellWidth = maxWidth / columns
+        val fitHeight = maxHeight / rows                 // cell height that makes all rows fill the screen
+        // If the rows fit (square cells overflow by <15%), set height = fitHeight so they fill top-to-
+        // bottom with no white gap or scroll — slight stretch/squish. Big overflow (phones) stays square + scrolls.
+        val cellHeight = if (fitHeight >= cellWidth * 0.85f) fitHeight else cellWidth
+        LazyVerticalGrid(columns = GridCells.Fixed(columns), modifier = Modifier.fillMaxSize()) {
             items(Animal.entries) { animal ->
                 Image(
                     painter = painterResource(animal.image),
@@ -67,7 +77,7 @@ fun MainScreen(onSettings: () -> Unit, vm: MainViewModel = viewModel()) {
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .aspectRatio(1f)
+                        .height(cellHeight)
                         .clickable { vm.play(animal) },
                 )
             }
