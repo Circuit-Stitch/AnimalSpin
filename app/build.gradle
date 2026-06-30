@@ -11,7 +11,7 @@ android {
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.circuitstitch"
+        applicationId "com.circuitstitch.toys.animals"
         minSdk 23   // Material 1.14 requires 23; <23 devices are effectively extinct
         targetSdk 36
         versionCode 1
