@@ -38,4 +38,4 @@ location with a new effective date.
 
 ## Contact
 
-Questions? Email **kfalconer@gmail.com**.
+Questions? Email **kyle@circuitstitch.com**.
