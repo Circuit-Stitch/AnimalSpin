@@ -2,6 +2,7 @@ package com.circuitstitch.toys.ui.main
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
@@ -16,9 +17,11 @@ class SettingsViewModel : ViewModel() {
     // strings MainViewModel persisted. ponytail: labels are built as plain English strings
     // (no string resources) — this app ships English-only, so there's nothing to localize.
     val voiceOptions: List<VoiceOption> = parseVoiceOptions(prefs.getVoiceOptions())
-    var selectedVoiceId by mutableStateOf(prefs.getSelectedVoiceName() ?: voiceOptions.firstOrNull()?.id)
-    var voicePitch by mutableStateOf(prefs.getVoicePitch().coerceIn(VOICE_MIN, VOICE_MAX))
-    var voiceSpeed by mutableStateOf(prefs.getVoiceSpeed().coerceIn(VOICE_MIN, VOICE_MAX))
+    var selectedVoiceId by mutableStateOf(
+        prefs.getSelectedVoiceName() ?: voiceOptions.firstOrNull()?.id
+    )
+    var voicePitch by mutableFloatStateOf(prefs.getVoicePitch().coerceIn(VOICE_MIN, VOICE_MAX))
+    var voiceSpeed by mutableFloatStateOf(prefs.getVoiceSpeed().coerceIn(VOICE_MIN, VOICE_MAX))
     var ttsEnabled by mutableStateOf(prefs.getTtsEnabled())
 
     fun save() {
@@ -40,7 +43,12 @@ class SettingsViewModel : ViewModel() {
     data class VoicePreset(@StringRes val label: Int, val pitch: Float, val speed: Float)
 
     /** id = TTS voice name (persisted), region = group header, name = friendly leaf label. */
-    data class VoiceOption(val id: String, val region: String, val quality: String, val name: String)
+    data class VoiceOption(
+        val id: String,
+        val region: String,
+        val quality: String,
+        val name: String
+    )
 
     private fun parseVoiceOptions(raw: List<String>): List<VoiceOption> {
         val gender = Regex("#(male|female)_(\\d+)")

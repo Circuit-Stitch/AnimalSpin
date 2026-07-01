@@ -5,9 +5,9 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
 import androidx.compose.foundation.layout.BoxWithConstraints
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
@@ -64,8 +64,11 @@ fun MainScreen(onSettings: () -> Unit, vm: MainViewModel = viewModel()) {
         // 2 fat columns; tablets get more. (24 animals, 200dp: ~10in portrait→4, ~10in landscape→6.)
         val columns = (maxWidth / 200.dp).toInt().coerceAtLeast(2)
         val rows = ceil(Animal.entries.size / columns.toFloat()).toInt()
+
+        // cell height that makes all rows fill the screen
+        val fitHeight = maxHeight / rows
         val cellWidth = maxWidth / columns
-        val fitHeight = maxHeight / rows                 // cell height that makes all rows fill the screen
+
         // If the rows fit (square cells overflow by <15%), set height = fitHeight so they fill top-to-
         // bottom with no white gap or scroll — slight stretch/squish. Big overflow (phones) stays square + scrolls.
         val cellHeight = if (fitHeight >= cellWidth * 0.85f) fitHeight else cellWidth
@@ -98,8 +101,12 @@ private fun isSquare(points: List<Offset>, minSide: Float): Boolean {
     val w = points.maxOf { it.x } - points.minOf { it.x }
     val h = points.maxOf { it.y } - points.minOf { it.y }
     if (w < minSide || h < minSide) return false
-    if (w / h !in 0.5f..2f) return false                                 // bbox stays ~1:1 at any rotation
-    if ((points.first() - points.last()).getDistance() > 0.40f * maxOf(w, h)) return false   // closed loop
+
+    // box stays ~1:1 at any rotation
+    if (w / h !in 0.5f..2f) return false
+    if ((points.first() - points.last()).getDistance() > 0.40f * maxOf(w, h)) {
+        return false   // closed loop
+    }
     return rectilinearity(points) >= 0.60f
 }
 

@@ -9,16 +9,20 @@ enum class Animal(@DrawableRes val image: Int, @StringRes val tts_says: Int) {
     BEAR(R.drawable.bear, R.string.tts_bear_says),
     CAT(R.drawable.cat_1, R.string.tts_cat_says),
     CHICKEN(R.drawable.hen_chicken, R.string.tts_chicken_says),
+
     // ponytail: CHIPMUNK held out — every CC0 'chipmunk' clip is a human laugh; re-add when a real one exists (chipmunk.jpg kept)
     CICADA(R.drawable.cicada, R.string.tts_cicada_says),
     COW(R.drawable.cow_female_black_white, R.string.tts_cow_says),
+
     // on ice: COYOTE — only 2 usable CC0 clips; re-add when better audio exists (image+clips kept)
     CRICKET(R.drawable.cricket, R.string.tts_cricket_says),
     CROW(R.drawable.crow, R.string.tts_crow_says),
     DOG(R.drawable.dog_1, R.string.tts_dog_says),
+
     // on ice: DOLPHIN — only 2 usable CC0 clips; re-add when better audio exists (image+clips kept)
     DONKEY(R.drawable.donkey_in_clovelly_north_devon_england, R.string.tts_donkey_says),
     DUCK(R.drawable.mallard_duck, R.string.tts_duck_says),
+
     // on ice: EAGLE — only 4 usable CC0 clips; re-add when better audio exists (image+clips kept)
     // on ice: ELEPHANT — only 4 usable CC0 clips; re-add when better audio exists (image+clips kept)
     // on ice: FOX — only 4 usable CC0 clips; re-add when better audio exists (image+clips kept)
@@ -32,10 +36,13 @@ enum class Animal(@DrawableRes val image: Int, @StringRes val tts_says: Int) {
     OWL(R.drawable.tawny_owl, R.string.tts_owl_says),
     PARROT(R.drawable.parrot, R.string.tts_parrot_says),
     PEACOCK(R.drawable.peacock, R.string.tts_peacock_says),
+
     // on ice: PENGUIN — only 2 usable CC0 clips; re-add when better audio exists (image+clips kept)
     PIG(R.drawable.pig, R.string.tts_pig_says),
+
     // ponytail: SEAL held out — only CC0 'seal' clips are sea lions or too borderline; re-add when a clear one exists (seal.jpg kept)
     SHEEP(R.drawable.pexels_ellie_burgin_10895600, R.string.tts_sheep_says),
+
     // on ice: SNAKE — trimmed to 24 for clean grid tiling; fewest clips (3) + faint hiss (image+clips kept)
     SQUIRREL(R.drawable.squirrel, R.string.tts_squirrel_says),
     TIGER(R.drawable.tiger, R.string.tts_tiger_says),

@@ -11,11 +11,7 @@ import com.circuitstitch.toys.models.AnimalNoise.Companion.animal_sounds
  * speaks the animal's name (when enabled) then plays the clip. TTS + MediaPlayer live behind the
  * Announcer seam, so this stays a plain unit-testable object (tests pass a fake Announcer).
  */
-class MainViewModel(private val announcer: Announcer) : ViewModel() {
-
-    // ponytail: no-arg ctor for viewModel()'s default factory; tests use the primary with a fake.
-    constructor() : this(RealAnnouncer())
-
+class MainViewModel(private val announcer: Announcer = RealAnnouncer()) : ViewModel() {
     private val noisesByAnimal = animal_sounds.groupBy { it.animal }
 
     fun play(animal: Animal) {

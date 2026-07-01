@@ -12,8 +12,8 @@ import java.util.Locale
 
 /**
  * Speaks an animal's name via TextToSpeech, then plays a recorded clip. The seam that keeps
- * [ui.main.MainViewModel] free of the Android speech/media engines so it stays unit-testable
- * (see RealAnnouncer for the real thing; tests supply a fake).
+ * [com.circuitstitch.toys.ui.main.MainViewModel] free of the Android speech/media engines so it
+ * stays unit-testable (see RealAnnouncer for the real thing; tests supply a fake).
  */
 interface Announcer {
     /** Speak the animal's name (when TTS is enabled), then play [noise]'s recorded clip. */
@@ -101,7 +101,7 @@ class RealAnnouncer(
     }
 
     // Prefer the device language, but only when we ship a translation for it (so spoken text
-    // exists) AND the device has voice data for it. Otherwise fall back to English — the
+    // exists) AND the device has voice data for it. Otherwise, fall back to English — the
     // recorded animal clip plays regardless, so playback never fully fails.
     private fun resolveTtsLocale(): Locale {
         val device = Locale.getDefault()
@@ -115,7 +115,7 @@ class RealAnnouncer(
 
     // Reads string resources in [ttsLocale] instead of the device locale, guaranteeing the
     // spoken phrase is in the same language the voice speaks (never English text in a foreign
-    // accent, or vice-versa).
+    // accent, or vice versa).
     private fun localizedContext() =
         context.createConfigurationContext(
             Configuration(context.resources.configuration).apply { setLocale(ttsLocale) }
@@ -138,6 +138,24 @@ class RealAnnouncer(
     companion object {
         // Languages we ship translations for (mirror the values-<code>/ dirs). Add the code
         // here when you add a translation, or that locale will keep speaking English.
-        private val SUPPORTED_LANGUAGES = setOf("en", "es", "fr", "de", "pt", "it", "hi", "id", "ja", "ru", "ko", "tr", "vi", "th", "pl", "nl", "ar")
+        private val SUPPORTED_LANGUAGES = setOf(
+            "en",
+            "es",
+            "fr",
+            "de",
+            "pt",
+            "it",
+            "hi",
+            "id",
+            "ja",
+            "ru",
+            "ko",
+            "tr",
+            "vi",
+            "th",
+            "pl",
+            "nl",
+            "ar"
+        )
     }
 }
