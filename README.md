@@ -4,19 +4,21 @@ Tap the picture of the animal to listen to the name of the animal and the sound 
 
 This is a simple educational Android app for children ages 1.5+, to let them listen to the noises that different animals make. Text to Speech is used to introduce the anmials.
 
+<a href="https://play.google.com/store/apps/details?id=com.circuitstitch.toys.animals"><img src=".github/google-play-badge.svg" alt="Get it on Google Play" height="80"/></a>
+
 ## Features
 
 - [x] animal noises and pictures in a tap and listen interface
 - [x] offline only - no internet connection required
-- [x] so simple a 1 year old can use it
+- [x] so simple a 1-year-old can use it
 - [x] has voice (TTS) customization
-- [ ] can have TTS voice disabled (TBD, see [issue #6](https://github.com/Kyle-Falconer/AnimalSpin/issues/6))
+- [x] can have TTS voice disabled (TBD, see [issue #6](https://github.com/Kyle-Falconer/AnimalSpin/issues/6))
 - [X] full screen interface to avoid accidental exiting of the app
 - [X] settings page for changing app settings like TTS options
 - [x] No advertising
 - [X] No app tracking
 - [x] [Free and Open Source](https://www.gnu.org/philosophy/floss-and-foss.en.html)
-- [ ] available on the Google Play Store (TBD, see [issue #7](https://github.com/Kyle-Falconer/AnimalSpin/issues/7))
+- [x] [available on the Google Play Store](https://play.google.com/store/apps/details?id=com.circuitstitch.toys.animals)
 
 <img src=".github/Screenshot_20221106_155222.png"  width="400"/>
 

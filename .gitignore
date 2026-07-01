@@ -16,9 +16,12 @@
 /.idea/.name
 /.idea/AndroidProjectSystem.xml
 /.idea/runConfigurations.xml
+/.idea/deviceManager.xml
+/.idea/inspectionProfiles/
 .DS_Store
 /build
 /captures
+/app/release
 .externalNativeBuild
 .cxx
 local.properties
