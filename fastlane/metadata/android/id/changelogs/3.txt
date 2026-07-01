@@ -1,0 +1,2 @@
+- 16 bahasa baru. Terjemahan antarmuka lengkap untuk bahasa Spanyol, Prancis, Jerman, Portugis, Italia, Hindi, Indonesia, Jepang, Rusia, Korea, Turki, Vietnam, Thai, Polandia, Belanda, dan Arab (dengan dukungan RTL). TTS kini mengikuti bahasa perangkat dan beralih ke bahasa Inggris saat suatu bahasa tidak didukung.
+- Pemutaran suara yang lebih mulus dan andal — logika ucapan/pengumuman dipindahkan ke komponen Announcer khusus dan kini memiliki cakupan pengujian unit.

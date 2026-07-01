@@ -47,6 +47,10 @@ Single-activity app. `MainActivity` is a `ComponentActivity` whose `setContent` 
 
 **App init** (`AnimalSpinApp.onCreate`): plants a Timber `DebugTree` in debug builds only. Use `Timber` for logging. (Flipper was removed during the 2026 toolchain upgrade — Android Studio's Layout Inspector covers what its inspector plugin did.)
 
+## Releasing
+
+Play Store "What's new" notes live in the fastlane tree: `fastlane/metadata/android/<locale>/changelogs/<versionCode>.txt` (16 translated locales + `en-US`; note `id`/`vi`/`th`/`ar` are region-less Play codes). Don't hand-write those 17 files — write one `<locale>`-tagged blob (see the format in `tools/release-notes.py`) and run `python3 tools/release-notes.py <tagged-file>`. It reads `versionCode` from `app/build.gradle`, enforces Play's 500-char limit (fails without writing if any locale is over), and fans the blocks out. Translations still need a native pass (per the i18n notes, several locales are review-pending).
+
 ## Notes
 
 - `MainScreen` lays the animals out in a `LazyVerticalGrid(GridCells.Fixed(2))`; each cell is a square `Image` (`ContentScale.Crop`). (The old View-system `RecyclerView` + unused `ArcLayoutManager` were removed in the Compose migration.)

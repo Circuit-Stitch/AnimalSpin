@@ -1,0 +1,2 @@
+- 16 ngôn ngữ mới. Dịch toàn bộ giao diện sang tiếng Tây Ban Nha, Pháp, Đức, Bồ Đào Nha, Ý, Hindi, Indonesia, Nhật, Nga, Hàn, Thổ Nhĩ Kỳ, Việt, Thái, Ba Lan, Hà Lan và Ả Rập (hỗ trợ RTL). TTS giờ đây theo ngôn ngữ của thiết bị và chuyển về tiếng Anh khi một ngôn ngữ không được hỗ trợ.
+- Phát giọng nói mượt mà và ổn định hơn — logic đọc/thông báo đã được tách thành một thành phần Announcer riêng và giờ đã có kiểm thử đơn vị.

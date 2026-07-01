@@ -1,0 +1,68 @@
+<en-US>
+- 16 new languages. Full UI translations for Spanish, French, German, Portuguese, Italian, Hindi, Indonesian, Japanese, Russian, Korean, Turkish, Vietnamese, Thai, Polish, Dutch, and Arabic (with RTL support). TTS now follows the device language and falls back to English when a language isn't supported.
+- Smoother, more reliable voice playback — the speech/announcement logic was pulled into a dedicated Announcer component and now has unit test coverage.
+</en-US>
+<es-ES>
+- 16 nuevos idiomas. Traducción completa de la interfaz al español, francés, alemán, portugués, italiano, hindi, indonesio, japonés, ruso, coreano, turco, vietnamita, tailandés, polaco, neerlandés y árabe (con compatibilidad RTL). Ahora el TTS sigue el idioma del dispositivo y recurre al inglés cuando un idioma no es compatible.
+- Reproducción de voz más fluida y fiable: la lógica de habla/anuncios se trasladó a un componente Announcer específico y ahora cuenta con pruebas unitarias.
+</es-ES>
+<fr-FR>
+- 16 nouvelles langues. Interface traduite en espagnol, français, allemand, portugais, italien, hindi, indonésien, japonais, russe, coréen, turc, vietnamien, thaï, polonais, néerlandais et arabe (avec prise en charge RTL). La synthèse vocale suit la langue de l'appareil, avec repli sur l'anglais si elle n'est pas prise en charge.
+- Lecture vocale plus fluide et fiable — la logique de parole/annonce, extraite dans un composant Announcer dédié, est désormais couverte par des tests unitaires.
+</fr-FR>
+<de-DE>
+- 16 neue Sprachen. UI übersetzt in Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Hindi, Indonesisch, Japanisch, Russisch, Koreanisch, Türkisch, Vietnamesisch, Thailändisch, Polnisch, Niederländisch und Arabisch (mit RTL). Die Sprachausgabe folgt jetzt der Gerätesprache, mit Rückfall auf Englisch bei nicht unterstützten Sprachen.
+- Flüssigere, stabilere Sprachwiedergabe – die Sprach-/Ansagelogik, ausgelagert in eine eigene Announcer-Komponente, ist jetzt durch Unit-Tests abgedeckt.
+</de-DE>
+<pt-PT>
+- 16 novos idiomas. Tradução completa da interface para espanhol, francês, alemão, português, italiano, híndi, indonésio, japonês, russo, coreano, turco, vietnamita, tailandês, polaco, neerlandês e árabe (com suporte RTL). O TTS passa a seguir o idioma do dispositivo e recorre ao inglês quando um idioma não é suportado.
+- Reprodução de voz mais suave e fiável — a lógica de fala/anúncios foi movida para um componente Announcer dedicado e agora tem cobertura de testes unitários.
+</pt-PT>
+<it-IT>
+- 16 nuove lingue. Traduzione completa dell'interfaccia in spagnolo, francese, tedesco, portoghese, italiano, hindi, indonesiano, giapponese, russo, coreano, turco, vietnamita, thailandese, polacco, olandese e arabo (con supporto RTL). Il TTS ora segue la lingua del dispositivo e ripiega sull'inglese quando una lingua non è supportata.
+- Riproduzione vocale più fluida e affidabile: la logica vocale/annunci è stata spostata in un componente Announcer dedicato e ora è coperta da test unitari.
+</it-IT>
+<hi-IN>
+- 16 नई भाषाएँ। स्पेनिश, फ़्रेंच, जर्मन, पुर्तगाली, इतालवी, हिंदी, इंडोनेशियाई, जापानी, रूसी, कोरियाई, तुर्की, वियतनामी, थाई, पोलिश, डच और अरबी (RTL समर्थन के साथ) के लिए पूर्ण UI अनुवाद। अब TTS डिवाइस की भाषा का अनुसरण करता है और किसी भाषा के समर्थित न होने पर अंग्रेज़ी पर लौट आता है।
+- अधिक सहज और भरोसेमंद आवाज़ प्लेबैक — बोलने/घोषणा की लॉजिक को एक अलग Announcer कंपोनेंट में निकाला गया और अब इसमें यूनिट टेस्ट कवरेज है।
+</hi-IN>
+<id>
+- 16 bahasa baru. Terjemahan antarmuka lengkap untuk bahasa Spanyol, Prancis, Jerman, Portugis, Italia, Hindi, Indonesia, Jepang, Rusia, Korea, Turki, Vietnam, Thai, Polandia, Belanda, dan Arab (dengan dukungan RTL). TTS kini mengikuti bahasa perangkat dan beralih ke bahasa Inggris saat suatu bahasa tidak didukung.
+- Pemutaran suara yang lebih mulus dan andal — logika ucapan/pengumuman dipindahkan ke komponen Announcer khusus dan kini memiliki cakupan pengujian unit.
+</id>
+<ja-JP>
+- 16の新しい言語。スペイン語、フランス語、ドイツ語、ポルトガル語、イタリア語、ヒンディー語、インドネシア語、日本語、ロシア語、韓国語、トルコ語、ベトナム語、タイ語、ポーランド語、オランダ語、アラビア語（RTL対応）にUIを完全翻訳しました。TTSはデバイスの言語に従うようになり、対応していない言語では英語にフォールバックします。
+- 音声再生がよりスムーズで安定しました。読み上げ/アナウンスのロジックを専用のAnnouncerコンポーネントに分離し、ユニットテストでカバーされるようになりました。
+</ja-JP>
+<ru-RU>
+- 16 новых языков. Перевод интерфейса на испанский, французский, немецкий, португальский, итальянский, хинди, индонезийский, японский, русский, корейский, турецкий, вьетнамский, тайский, польский, нидерландский и арабский (с поддержкой RTL). Теперь синтез речи следует языку устройства и переключается на английский, если язык не поддерживается.
+- Более плавное и надёжное воспроизведение голоса — логика речи/озвучивания вынесена в отдельный компонент Announcer и теперь покрыта модульными тестами.
+</ru-RU>
+<ko-KR>
+- 16개 언어 추가. 스페인어, 프랑스어, 독일어, 포르투갈어, 이탈리아어, 힌디어, 인도네시아어, 일본어, 러시아어, 한국어, 터키어, 베트남어, 태국어, 폴란드어, 네덜란드어, 아랍어(RTL 지원)로 UI를 전체 번역했습니다. 이제 TTS가 기기 언어를 따르며, 지원하지 않는 언어는 영어로 대체됩니다.
+- 더 부드럽고 안정적인 음성 재생 — 음성/안내 로직을 전용 Announcer 컴포넌트로 분리했고 이제 단위 테스트로 검증됩니다.
+</ko-KR>
+<tr-TR>
+- 16 yeni dil. İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Hintçe, Endonezce, Japonca, Rusça, Korece, Türkçe, Vietnamca, Tayca, Lehçe, Felemenkçe ve Arapça (RTL desteğiyle) için eksiksiz arayüz çevirileri. TTS artık cihazın dilini izliyor ve bir dil desteklenmediğinde İngilizceye geçiyor.
+- Daha akıcı ve güvenilir ses oynatma — konuşma/anons mantığı ayrı bir Announcer bileşenine taşındı ve artık birim testleriyle kapsanıyor.
+</tr-TR>
+<vi>
+- 16 ngôn ngữ mới. Dịch toàn bộ giao diện sang tiếng Tây Ban Nha, Pháp, Đức, Bồ Đào Nha, Ý, Hindi, Indonesia, Nhật, Nga, Hàn, Thổ Nhĩ Kỳ, Việt, Thái, Ba Lan, Hà Lan và Ả Rập (hỗ trợ RTL). TTS giờ đây theo ngôn ngữ của thiết bị và chuyển về tiếng Anh khi một ngôn ngữ không được hỗ trợ.
+- Phát giọng nói mượt mà và ổn định hơn — logic đọc/thông báo đã được tách thành một thành phần Announcer riêng và giờ đã có kiểm thử đơn vị.
+</vi>
+<th>
+- 16 ภาษาใหม่ แปลอินเทอร์เฟซทั้งหมดเป็นภาษาสเปน ฝรั่งเศส เยอรมัน โปรตุเกส อิตาลี ฮินดี อินโดนีเซีย ญี่ปุ่น รัสเซีย เกาหลี ตุรกี เวียดนาม ไทย โปแลนด์ ดัตช์ และอาหรับ (รองรับ RTL) ตอนนี้ TTS จะใช้ภาษาตามอุปกรณ์ และสลับไปใช้ภาษาอังกฤษเมื่อไม่รองรับภาษานั้น
+- การเล่นเสียงที่ลื่นไหลและเสถียรยิ่งขึ้น — ย้ายลอจิกการพูด/ประกาศไปยังคอมโพเนนต์ Announcer โดยเฉพาะ และตอนนี้มีการทดสอบยูนิตครอบคลุมแล้ว
+</th>
+<pl-PL>
+- 16 nowych języków. Tłumaczenie interfejsu na hiszpański, francuski, niemiecki, portugalski, włoski, hindi, indonezyjski, japoński, rosyjski, koreański, turecki, wietnamski, tajski, polski, niderlandzki i arabski (z obsługą RTL). Synteza mowy (TTS) podąża za językiem urządzenia, z powrotem do angielskiego dla nieobsługiwanych języków.
+- Płynniejsze i pewniejsze odtwarzanie głosu — logikę mowy/zapowiedzi wydzielono do osobnego komponentu Announcer, teraz objętego testami jednostkowymi.
+</pl-PL>
+<nl-NL>
+- 16 nieuwe talen. Volledige vertaling van de interface naar Spaans, Frans, Duits, Portugees, Italiaans, Hindi, Indonesisch, Japans, Russisch, Koreaans, Turks, Vietnamees, Thais, Pools, Nederlands en Arabisch (met RTL-ondersteuning). TTS volgt nu de taal van het apparaat en valt terug op Engels wanneer een taal niet wordt ondersteund.
+- Vloeiendere en betrouwbaardere spraakweergave — de spraak-/aankondigingslogica is verplaatst naar een aparte Announcer-component en heeft nu unittestdekking.
+</nl-NL>
+<ar>
+- 16 لغة جديدة. ترجمة كاملة للواجهة إلى الإسبانية والفرنسية والألمانية والبرتغالية والإيطالية والهندية والإندونيسية واليابانية والروسية والكورية والتركية والفيتنامية والتايلاندية والبولندية والهولندية والعربية (مع دعم الكتابة من اليمين إلى اليسار). أصبح تحويل النص إلى كلام (TTS) يتبع لغة الجهاز ويعود إلى الإنجليزية عندما تكون اللغة غير مدعومة.
+- تشغيل صوتي أكثر سلاسة وموثوقية — تم نقل منطق النطق/الإعلانات إلى مكوّن Announcer مخصّص، وأصبح الآن مغطى باختبارات الوحدة.
+</ar>

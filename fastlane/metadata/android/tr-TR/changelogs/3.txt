@@ -1,0 +1,2 @@
+- 16 yeni dil. İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Hintçe, Endonezce, Japonca, Rusça, Korece, Türkçe, Vietnamca, Tayca, Lehçe, Felemenkçe ve Arapça (RTL desteğiyle) için eksiksiz arayüz çevirileri. TTS artık cihazın dilini izliyor ve bir dil desteklenmediğinde İngilizceye geçiyor.
+- Daha akıcı ve güvenilir ses oynatma — konuşma/anons mantığı ayrı bir Announcer bileşenine taşındı ve artık birim testleriyle kapsanıyor.

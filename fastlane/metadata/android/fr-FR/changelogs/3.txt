@@ -1,0 +1,2 @@
+- 16 nouvelles langues. Interface traduite en espagnol, français, allemand, portugais, italien, hindi, indonésien, japonais, russe, coréen, turc, vietnamien, thaï, polonais, néerlandais et arabe (avec prise en charge RTL). La synthèse vocale suit la langue de l'appareil, avec repli sur l'anglais si elle n'est pas prise en charge.
+- Lecture vocale plus fluide et fiable — la logique de parole/annonce, extraite dans un composant Announcer dédié, est désormais couverte par des tests unitaires.

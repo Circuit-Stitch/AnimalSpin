@@ -1,0 +1,2 @@
+- 16 new languages. Full UI translations for Spanish, French, German, Portuguese, Italian, Hindi, Indonesian, Japanese, Russian, Korean, Turkish, Vietnamese, Thai, Polish, Dutch, and Arabic (with RTL support). TTS now follows the device language and falls back to English when a language isn't supported.
+- Smoother, more reliable voice playback — the speech/announcement logic was pulled into a dedicated Announcer component and now has unit test coverage.

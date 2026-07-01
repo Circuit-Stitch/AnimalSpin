@@ -1,0 +1,2 @@
+- 16 novos idiomas. Tradução completa da interface para espanhol, francês, alemão, português, italiano, híndi, indonésio, japonês, russo, coreano, turco, vietnamita, tailandês, polaco, neerlandês e árabe (com suporte RTL). O TTS passa a seguir o idioma do dispositivo e recorre ao inglês quando um idioma não é suportado.
+- Reprodução de voz mais suave e fiável — a lógica de fala/anúncios foi movida para um componente Announcer dedicado e agora tem cobertura de testes unitários.

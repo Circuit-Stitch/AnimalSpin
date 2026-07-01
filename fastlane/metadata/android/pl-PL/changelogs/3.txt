@@ -1,0 +1,2 @@
+- 16 nowych języków. Tłumaczenie interfejsu na hiszpański, francuski, niemiecki, portugalski, włoski, hindi, indonezyjski, japoński, rosyjski, koreański, turecki, wietnamski, tajski, polski, niderlandzki i arabski (z obsługą RTL). Synteza mowy (TTS) podąża za językiem urządzenia, z powrotem do angielskiego dla nieobsługiwanych języków.
+- Płynniejsze i pewniejsze odtwarzanie głosu — logikę mowy/zapowiedzi wydzielono do osobnego komponentu Announcer, teraz objętego testami jednostkowymi.

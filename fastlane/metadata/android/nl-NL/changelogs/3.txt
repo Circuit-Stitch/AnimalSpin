@@ -1,0 +1,2 @@
+- 16 nieuwe talen. Volledige vertaling van de interface naar Spaans, Frans, Duits, Portugees, Italiaans, Hindi, Indonesisch, Japans, Russisch, Koreaans, Turks, Vietnamees, Thais, Pools, Nederlands en Arabisch (met RTL-ondersteuning). TTS volgt nu de taal van het apparaat en valt terug op Engels wanneer een taal niet wordt ondersteund.
+- Vloeiendere en betrouwbaardere spraakweergave — de spraak-/aankondigingslogica is verplaatst naar een aparte Announcer-component en heeft nu unittestdekking.

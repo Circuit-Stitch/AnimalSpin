@@ -1,0 +1,2 @@
+- 16 neue Sprachen. UI übersetzt in Spanisch, Französisch, Deutsch, Portugiesisch, Italienisch, Hindi, Indonesisch, Japanisch, Russisch, Koreanisch, Türkisch, Vietnamesisch, Thailändisch, Polnisch, Niederländisch und Arabisch (mit RTL). Die Sprachausgabe folgt jetzt der Gerätesprache, mit Rückfall auf Englisch bei nicht unterstützten Sprachen.
+- Flüssigere, stabilere Sprachwiedergabe – die Sprach-/Ansagelogik, ausgelagert in eine eigene Announcer-Komponente, ist jetzt durch Unit-Tests abgedeckt.
