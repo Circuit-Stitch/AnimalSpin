@@ -98,7 +98,7 @@ private fun isSquare(points: List<Offset>, minSide: Float): Boolean {
     val w = points.maxOf { it.x } - points.minOf { it.x }
     val h = points.maxOf { it.y } - points.minOf { it.y }
     if (w < minSide || h < minSide) return false
-    if (w / h < 0.5f || w / h > 2f) return false                                 // bbox stays ~1:1 at any rotation
+    if (w / h !in 0.5f..2f) return false                                 // bbox stays ~1:1 at any rotation
     if ((points.first() - points.last()).getDistance() > 0.40f * maxOf(w, h)) return false   // closed loop
     return rectilinearity(points) >= 0.60f
 }
