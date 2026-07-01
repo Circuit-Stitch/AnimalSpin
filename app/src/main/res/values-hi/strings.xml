@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "<animal> की आवाज़" = "the <animal>'s sound", the natural
+         kids' lead-in before the recorded sound plays (Hindi has no articles; this
+         avoids verb-gender agreement). Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">बिल्ली की आवाज़</string>
+    <string name="tts_chicken_says">मुर्गी की आवाज़</string>
+    <string name="tts_cow_says">गाय की आवाज़</string>
+    <string name="tts_dog_says">कुत्ते की आवाज़</string>
+    <string name="tts_donkey_says">गधे की आवाज़</string>
+    <string name="tts_duck_says">बत्तख़ की आवाज़</string>
+    <string name="tts_frog_says">मेंढक की आवाज़</string>
+    <string name="tts_goat_says">बकरी की आवाज़</string>
+    <string name="tts_horse_says">घोड़े की आवाज़</string>
+    <string name="tts_lion_says">शेर की आवाज़</string>
+    <string name="tts_monkey_says">बंदर की आवाज़</string>
+    <string name="tts_owl_says">उल्लू की आवाज़</string>
+    <string name="tts_sheep_says">भेड़ की आवाज़</string>
+    <string name="tts_bear_says">भालू की आवाज़</string>
+    <string name="tts_chipmunk_says">चिपमंक की आवाज़</string>
+    <string name="tts_cicada_says">सिकाडा की आवाज़</string>
+    <string name="tts_coyote_says">कोयोट की आवाज़</string>
+    <string name="tts_cricket_says">झींगुर की आवाज़</string>
+    <string name="tts_crow_says">कौए की आवाज़</string>
+    <string name="tts_dolphin_says">डॉल्फ़िन की आवाज़</string>
+    <string name="tts_eagle_says">चील की आवाज़</string>
+    <string name="tts_elephant_says">हाथी की आवाज़</string>
+    <string name="tts_fox_says">लोमड़ी की आवाज़</string>
+    <string name="tts_goose_says">हंस की आवाज़</string>
+    <string name="tts_hyena_says">लकड़बग्घे की आवाज़</string>
+    <string name="tts_parrot_says">तोते की आवाज़</string>
+    <string name="tts_peacock_says">मोर की आवाज़</string>
+    <string name="tts_penguin_says">पेंगुइन की आवाज़</string>
+    <string name="tts_pig_says">सूअर की आवाज़</string>
+    <string name="tts_seal_says">सील की आवाज़</string>
+    <string name="tts_snake_says">साँप की आवाज़</string>
+    <string name="tts_squirrel_says">गिलहरी की आवाज़</string>
+    <string name="tts_tiger_says">बाघ की आवाज़</string>
+    <string name="tts_whale_says">व्हेल की आवाज़</string>
+    <string name="tts_wolf_says">भेड़िये की आवाज़</string>
+    <string name="tts_zebra_says">ज़ेब्रा की आवाज़</string>
+
+    <!-- App labels -->
+    <string name="settings">सेटिंग्स</string>
+    <string name="speak_animal_name">जानवर का नाम बोलें</string>
+    <string name="voices">आवाज़ें</string>
+    <string name="presets">प्रीसेट</string>
+    <string name="preset_normal">सामान्य</string>
+    <string name="preset_robot">रोबोट</string>
+    <string name="preset_chipmunk">चिपमंक</string>
+    <string name="voice_pitch">आवाज़ की पिच</string>
+    <string name="voice_pitch_slider">आवाज़ की पिच</string>
+    <string name="voice_speed">आवाज़ की गति</string>
+    <string name="voice_speed_slider">आवाज़ की गति</string>
+    <string name="save_btn">सहेजें</string>
+
+</resources>

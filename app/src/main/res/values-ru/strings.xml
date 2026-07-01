@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "говорит" = "says", the idiomatic Russian kids' construction
+         ("Как говорит кошка? Мяу!"); verb is gender-neutral, animal in nominative.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">кошка говорит</string>
+    <string name="tts_chicken_says">курица говорит</string>
+    <string name="tts_cow_says">корова говорит</string>
+    <string name="tts_dog_says">собака говорит</string>
+    <string name="tts_donkey_says">осёл говорит</string>
+    <string name="tts_duck_says">утка говорит</string>
+    <string name="tts_frog_says">лягушка говорит</string>
+    <string name="tts_goat_says">коза говорит</string>
+    <string name="tts_horse_says">лошадь говорит</string>
+    <string name="tts_lion_says">лев говорит</string>
+    <string name="tts_monkey_says">обезьяна говорит</string>
+    <string name="tts_owl_says">сова говорит</string>
+    <string name="tts_sheep_says">овца говорит</string>
+    <string name="tts_bear_says">медведь говорит</string>
+    <string name="tts_chipmunk_says">бурундук говорит</string>
+    <string name="tts_cicada_says">цикада говорит</string>
+    <string name="tts_coyote_says">койот говорит</string>
+    <string name="tts_cricket_says">сверчок говорит</string>
+    <string name="tts_crow_says">ворона говорит</string>
+    <string name="tts_dolphin_says">дельфин говорит</string>
+    <string name="tts_eagle_says">орёл говорит</string>
+    <string name="tts_elephant_says">слон говорит</string>
+    <string name="tts_fox_says">лиса говорит</string>
+    <string name="tts_goose_says">гусь говорит</string>
+    <string name="tts_hyena_says">гиена говорит</string>
+    <string name="tts_parrot_says">попугай говорит</string>
+    <string name="tts_peacock_says">павлин говорит</string>
+    <string name="tts_penguin_says">пингвин говорит</string>
+    <string name="tts_pig_says">свинья говорит</string>
+    <string name="tts_seal_says">тюлень говорит</string>
+    <string name="tts_snake_says">змея говорит</string>
+    <string name="tts_squirrel_says">белка говорит</string>
+    <string name="tts_tiger_says">тигр говорит</string>
+    <string name="tts_whale_says">кит говорит</string>
+    <string name="tts_wolf_says">волк говорит</string>
+    <string name="tts_zebra_says">зебра говорит</string>
+
+    <!-- App labels -->
+    <string name="settings">настройки</string>
+    <string name="speak_animal_name">произнести название животного</string>
+    <string name="voices">голоса</string>
+    <string name="presets">пресеты</string>
+    <string name="preset_normal">обычный</string>
+    <string name="preset_robot">робот</string>
+    <string name="preset_chipmunk">бурундук</string>
+    <string name="voice_pitch">высота голоса</string>
+    <string name="voice_pitch_slider">высота голоса</string>
+    <string name="voice_speed">скорость голоса</string>
+    <string name="voice_speed_slider">скорость голоса</string>
+    <string name="save_btn">сохранить</string>
+
+</resources>

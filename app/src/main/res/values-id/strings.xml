@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Animal TTS Values. "berbunyi" = "makes a sound", the idiomatic kids' lead-in
+         (Indonesian has no articles/gender). Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">kucing berbunyi</string>
+    <string name="tts_chicken_says">ayam berbunyi</string>
+    <string name="tts_cow_says">sapi berbunyi</string>
+    <string name="tts_dog_says">anjing berbunyi</string>
+    <string name="tts_donkey_says">keledai berbunyi</string>
+    <string name="tts_duck_says">bebek berbunyi</string>
+    <string name="tts_frog_says">katak berbunyi</string>
+    <string name="tts_goat_says">kambing berbunyi</string>
+    <string name="tts_horse_says">kuda berbunyi</string>
+    <string name="tts_lion_says">singa berbunyi</string>
+    <string name="tts_monkey_says">monyet berbunyi</string>
+    <string name="tts_owl_says">burung hantu berbunyi</string>
+    <string name="tts_sheep_says">domba berbunyi</string>
+    <string name="tts_bear_says">beruang berbunyi</string>
+    <string name="tts_chipmunk_says">tupai tanah berbunyi</string>
+    <string name="tts_cicada_says">tonggeret berbunyi</string>
+    <string name="tts_coyote_says">koyote berbunyi</string>
+    <string name="tts_cricket_says">jangkrik berbunyi</string>
+    <string name="tts_crow_says">burung gagak berbunyi</string>
+    <string name="tts_dolphin_says">lumba-lumba berbunyi</string>
+    <string name="tts_eagle_says">elang berbunyi</string>
+    <string name="tts_elephant_says">gajah berbunyi</string>
+    <string name="tts_fox_says">rubah berbunyi</string>
+    <string name="tts_goose_says">angsa berbunyi</string>
+    <string name="tts_hyena_says">hiena berbunyi</string>
+    <string name="tts_parrot_says">burung beo berbunyi</string>
+    <string name="tts_peacock_says">merak berbunyi</string>
+    <string name="tts_penguin_says">penguin berbunyi</string>
+    <string name="tts_pig_says">babi berbunyi</string>
+    <string name="tts_seal_says">anjing laut berbunyi</string>
+    <string name="tts_snake_says">ular berbunyi</string>
+    <string name="tts_squirrel_says">tupai berbunyi</string>
+    <string name="tts_tiger_says">harimau berbunyi</string>
+    <string name="tts_whale_says">paus berbunyi</string>
+    <string name="tts_wolf_says">serigala berbunyi</string>
+    <string name="tts_zebra_says">zebra berbunyi</string>
+
+    <!-- App labels -->
+    <string name="settings">pengaturan</string>
+    <string name="speak_animal_name">ucapkan nama hewan</string>
+    <string name="voices">suara</string>
+    <string name="presets">prasetel</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">tupai</string>
+    <string name="voice_pitch">nada suara</string>
+    <string name="voice_pitch_slider">nada suara</string>
+    <string name="voice_speed">kecepatan suara</string>
+    <string name="voice_speed_slider">kecepatan suara</string>
+    <string name="save_btn">simpan</string>
+
+</resources>

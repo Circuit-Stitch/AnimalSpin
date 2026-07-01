@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Animal TTS Values. "fait" = the idiomatic "makes [the sound]" used in kids' material.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">le chat fait</string>
+    <string name="tts_chicken_says">la poule fait</string>
+    <string name="tts_cow_says">la vache fait</string>
+    <string name="tts_dog_says">le chien fait</string>
+    <string name="tts_donkey_says">l\'âne fait</string>
+    <string name="tts_duck_says">le canard fait</string>
+    <string name="tts_frog_says">la grenouille fait</string>
+    <string name="tts_goat_says">la chèvre fait</string>
+    <string name="tts_horse_says">le cheval fait</string>
+    <string name="tts_lion_says">le lion fait</string>
+    <string name="tts_monkey_says">le singe fait</string>
+    <string name="tts_owl_says">le hibou fait</string>
+    <string name="tts_sheep_says">le mouton fait</string>
+    <string name="tts_bear_says">l\'ours fait</string>
+    <string name="tts_chipmunk_says">le tamia fait</string>
+    <string name="tts_cicada_says">la cigale fait</string>
+    <string name="tts_coyote_says">le coyote fait</string>
+    <string name="tts_cricket_says">le grillon fait</string>
+    <string name="tts_crow_says">le corbeau fait</string>
+    <string name="tts_dolphin_says">le dauphin fait</string>
+    <string name="tts_eagle_says">l\'aigle fait</string>
+    <string name="tts_elephant_says">l\'éléphant fait</string>
+    <string name="tts_fox_says">le renard fait</string>
+    <string name="tts_goose_says">l\'oie fait</string>
+    <string name="tts_hyena_says">la hyène fait</string>
+    <string name="tts_parrot_says">le perroquet fait</string>
+    <string name="tts_peacock_says">le paon fait</string>
+    <string name="tts_penguin_says">le pingouin fait</string>
+    <string name="tts_pig_says">le cochon fait</string>
+    <string name="tts_seal_says">le phoque fait</string>
+    <string name="tts_snake_says">le serpent fait</string>
+    <string name="tts_squirrel_says">l\'écureuil fait</string>
+    <string name="tts_tiger_says">le tigre fait</string>
+    <string name="tts_whale_says">la baleine fait</string>
+    <string name="tts_wolf_says">le loup fait</string>
+    <string name="tts_zebra_says">le zèbre fait</string>
+
+    <!-- App labels -->
+    <string name="settings">paramètres</string>
+    <string name="speak_animal_name">dire le nom de l\'animal</string>
+    <string name="voices">voix</string>
+    <string name="presets">préréglages</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">écureuil</string>
+    <string name="voice_pitch">hauteur de la voix</string>
+    <string name="voice_pitch_slider">hauteur de la voix</string>
+    <string name="voice_speed">vitesse de la voix</string>
+    <string name="voice_speed_slider">vitesse de la voix</string>
+    <string name="save_btn">enregistrer</string>
+
+</resources>

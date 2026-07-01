@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "con <animal> kêu" = "the X calls/makes its sound" — "kêu"
+         is the natural children's verb; "con" is the animal classifier. No inflection.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">con mèo kêu</string>
+    <string name="tts_chicken_says">con gà kêu</string>
+    <string name="tts_cow_says">con bò kêu</string>
+    <string name="tts_dog_says">con chó kêu</string>
+    <string name="tts_donkey_says">con lừa kêu</string>
+    <string name="tts_duck_says">con vịt kêu</string>
+    <string name="tts_frog_says">con ếch kêu</string>
+    <string name="tts_goat_says">con dê kêu</string>
+    <string name="tts_horse_says">con ngựa kêu</string>
+    <string name="tts_lion_says">con sư tử kêu</string>
+    <string name="tts_monkey_says">con khỉ kêu</string>
+    <string name="tts_owl_says">con cú kêu</string>
+    <string name="tts_sheep_says">con cừu kêu</string>
+    <string name="tts_bear_says">con gấu kêu</string>
+    <string name="tts_chipmunk_says">con sóc chuột kêu</string>
+    <string name="tts_cicada_says">con ve sầu kêu</string>
+    <string name="tts_coyote_says">con sói đồng cỏ kêu</string>
+    <string name="tts_cricket_says">con dế kêu</string>
+    <string name="tts_crow_says">con quạ kêu</string>
+    <string name="tts_dolphin_says">con cá heo kêu</string>
+    <string name="tts_eagle_says">con đại bàng kêu</string>
+    <string name="tts_elephant_says">con voi kêu</string>
+    <string name="tts_fox_says">con cáo kêu</string>
+    <string name="tts_goose_says">con ngỗng kêu</string>
+    <string name="tts_hyena_says">con linh cẩu kêu</string>
+    <string name="tts_parrot_says">con vẹt kêu</string>
+    <string name="tts_peacock_says">con công kêu</string>
+    <string name="tts_penguin_says">con chim cánh cụt kêu</string>
+    <string name="tts_pig_says">con lợn kêu</string>
+    <string name="tts_seal_says">con hải cẩu kêu</string>
+    <string name="tts_snake_says">con rắn kêu</string>
+    <string name="tts_squirrel_says">con sóc kêu</string>
+    <string name="tts_tiger_says">con hổ kêu</string>
+    <string name="tts_whale_says">con cá voi kêu</string>
+    <string name="tts_wolf_says">con sói kêu</string>
+    <string name="tts_zebra_says">con ngựa vằn kêu</string>
+
+    <!-- App labels -->
+    <string name="settings">cài đặt</string>
+    <string name="speak_animal_name">đọc tên con vật</string>
+    <string name="voices">giọng nói</string>
+    <string name="presets">cài đặt sẵn</string>
+    <string name="preset_normal">bình thường</string>
+    <string name="preset_robot">người máy</string>
+    <string name="preset_chipmunk">sóc chuột</string>
+    <string name="voice_pitch">cao độ giọng</string>
+    <string name="voice_pitch_slider">cao độ giọng</string>
+    <string name="voice_speed">tốc độ giọng</string>
+    <string name="voice_speed_slider">tốc độ giọng</string>
+    <string name="save_btn">lưu</string>
+
+</resources>

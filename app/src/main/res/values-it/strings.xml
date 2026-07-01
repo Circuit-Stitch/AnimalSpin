@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Animal TTS Values. "fa" = the idiomatic "makes [the sound]" used in kids' material.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">il gatto fa</string>
+    <string name="tts_chicken_says">la gallina fa</string>
+    <string name="tts_cow_says">la mucca fa</string>
+    <string name="tts_dog_says">il cane fa</string>
+    <string name="tts_donkey_says">l\'asino fa</string>
+    <string name="tts_duck_says">l\'anatra fa</string>
+    <string name="tts_frog_says">la rana fa</string>
+    <string name="tts_goat_says">la capra fa</string>
+    <string name="tts_horse_says">il cavallo fa</string>
+    <string name="tts_lion_says">il leone fa</string>
+    <string name="tts_monkey_says">la scimmia fa</string>
+    <string name="tts_owl_says">il gufo fa</string>
+    <string name="tts_sheep_says">la pecora fa</string>
+    <string name="tts_bear_says">l\'orso fa</string>
+    <string name="tts_chipmunk_says">lo scoiattolo striato fa</string>
+    <string name="tts_cicada_says">la cicala fa</string>
+    <string name="tts_coyote_says">il coyote fa</string>
+    <string name="tts_cricket_says">il grillo fa</string>
+    <string name="tts_crow_says">il corvo fa</string>
+    <string name="tts_dolphin_says">il delfino fa</string>
+    <string name="tts_eagle_says">l\'aquila fa</string>
+    <string name="tts_elephant_says">l\'elefante fa</string>
+    <string name="tts_fox_says">la volpe fa</string>
+    <string name="tts_goose_says">l\'oca fa</string>
+    <string name="tts_hyena_says">la iena fa</string>
+    <string name="tts_parrot_says">il pappagallo fa</string>
+    <string name="tts_peacock_says">il pavone fa</string>
+    <string name="tts_penguin_says">il pinguino fa</string>
+    <string name="tts_pig_says">il maiale fa</string>
+    <string name="tts_seal_says">la foca fa</string>
+    <string name="tts_snake_says">il serpente fa</string>
+    <string name="tts_squirrel_says">lo scoiattolo fa</string>
+    <string name="tts_tiger_says">la tigre fa</string>
+    <string name="tts_whale_says">la balena fa</string>
+    <string name="tts_wolf_says">il lupo fa</string>
+    <string name="tts_zebra_says">la zebra fa</string>
+
+    <!-- App labels -->
+    <string name="settings">impostazioni</string>
+    <string name="speak_animal_name">dire il nome dell\'animale</string>
+    <string name="voices">voci</string>
+    <string name="presets">preimpostazioni</string>
+    <string name="preset_normal">normale</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">scoiattolo</string>
+    <string name="voice_pitch">tono della voce</string>
+    <string name="voice_pitch_slider">tono della voce</string>
+    <string name="voice_speed">velocità della voce</string>
+    <string name="voice_speed_slider">velocità della voce</string>
+    <string name="save_btn">salva</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "sesi" = "the X's sound" (possessive), gender/article-free
+         like the ja/ko/hi files; Turkish has no grammatical gender or articles.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">kedi sesi</string>
+    <string name="tts_chicken_says">tavuk sesi</string>
+    <string name="tts_cow_says">inek sesi</string>
+    <string name="tts_dog_says">köpek sesi</string>
+    <string name="tts_donkey_says">eşek sesi</string>
+    <string name="tts_duck_says">ördek sesi</string>
+    <string name="tts_frog_says">kurbağa sesi</string>
+    <string name="tts_goat_says">keçi sesi</string>
+    <string name="tts_horse_says">at sesi</string>
+    <string name="tts_lion_says">aslan sesi</string>
+    <string name="tts_monkey_says">maymun sesi</string>
+    <string name="tts_owl_says">baykuş sesi</string>
+    <string name="tts_sheep_says">koyun sesi</string>
+    <string name="tts_bear_says">ayı sesi</string>
+    <string name="tts_chipmunk_says">çizgili sincap sesi</string>
+    <string name="tts_cicada_says">ağustos böceği sesi</string>
+    <string name="tts_coyote_says">kojot sesi</string>
+    <string name="tts_cricket_says">cırcır böceği sesi</string>
+    <string name="tts_crow_says">karga sesi</string>
+    <string name="tts_dolphin_says">yunus sesi</string>
+    <string name="tts_eagle_says">kartal sesi</string>
+    <string name="tts_elephant_says">fil sesi</string>
+    <string name="tts_fox_says">tilki sesi</string>
+    <string name="tts_goose_says">kaz sesi</string>
+    <string name="tts_hyena_says">sırtlan sesi</string>
+    <string name="tts_parrot_says">papağan sesi</string>
+    <string name="tts_peacock_says">tavus kuşu sesi</string>
+    <string name="tts_penguin_says">penguen sesi</string>
+    <string name="tts_pig_says">domuz sesi</string>
+    <string name="tts_seal_says">fok sesi</string>
+    <string name="tts_snake_says">yılan sesi</string>
+    <string name="tts_squirrel_says">sincap sesi</string>
+    <string name="tts_tiger_says">kaplan sesi</string>
+    <string name="tts_whale_says">balina sesi</string>
+    <string name="tts_wolf_says">kurt sesi</string>
+    <string name="tts_zebra_says">zebra sesi</string>
+
+    <!-- App labels -->
+    <string name="settings">ayarlar</string>
+    <string name="speak_animal_name">hayvan adını söyle</string>
+    <string name="voices">sesler</string>
+    <string name="presets">ön ayarlar</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">sincap</string>
+    <string name="voice_pitch">ses perdesi</string>
+    <string name="voice_pitch_slider">ses perdesi</string>
+    <string name="voice_speed">ses hızı</string>
+    <string name="voice_speed_slider">ses hızı</string>
+    <string name="save_btn">kaydet</string>
+
+</resources>

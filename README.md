@@ -23,6 +23,31 @@ This is a simple educational Android app for children ages 1.5+, to let them lis
 <img src=".github/Screenshot_20221106_155222.png"  width="400"/>
 
 
+## Languages
+
+Spoken animal names and UI text follow the device language, falling back to English when a language isn't supported or the device lacks the TTS voice pack. Native-speaker corrections are very welcome — see [Contributing](#contributing).
+
+| Language | Code | Status |
+|------------|------|--------|
+| English | `en` | ✅ Source |
+| Spanish | `es` | ✅ Shipped |
+| French | `fr` | ✅ Shipped |
+| German | `de` | ✅ Shipped |
+| Portuguese | `pt` | ✅ Shipped |
+| Italian | `it` | ✅ Shipped |
+| Hindi | `hi` | ⚠️ Shipped — native review needed |
+| Indonesian | `id` | ⚠️ Shipped — native review needed |
+| Japanese | `ja` | ⚠️ Shipped — native review needed |
+| Russian | `ru` | ⚠️ Shipped — native review needed |
+| Korean | `ko` | ⚠️ Shipped — native review needed |
+| Turkish | `tr` | ⚠️ Shipped — native review needed |
+| Vietnamese | `vi` | ⚠️ Shipped — native review needed |
+| Thai | `th` | ⚠️ Shipped — native review needed |
+| Polish | `pl` | ⚠️ Shipped — native review needed |
+| Dutch | `nl` | ⚠️ Shipped — native review needed |
+| Arabic | `ar` | ⚠️ Shipped (RTL) — native review needed |
+
+
 ## Contributing
 
 * this project is designed to be developed using [Android Studio](https://developer.android.com/studio) using the latest techniques and libraries for Android app development.

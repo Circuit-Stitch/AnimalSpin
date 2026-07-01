@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values (pt-BR wording — Brazil is the bulk of pt Play users).
+         "faz" = the idiomatic "makes [the sound]" used in kids' material.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">o gato faz</string>
+    <string name="tts_chicken_says">a galinha faz</string>
+    <string name="tts_cow_says">a vaca faz</string>
+    <string name="tts_dog_says">o cachorro faz</string>
+    <string name="tts_donkey_says">o burro faz</string>
+    <string name="tts_duck_says">o pato faz</string>
+    <string name="tts_frog_says">o sapo faz</string>
+    <string name="tts_goat_says">a cabra faz</string>
+    <string name="tts_horse_says">o cavalo faz</string>
+    <string name="tts_lion_says">o leão faz</string>
+    <string name="tts_monkey_says">o macaco faz</string>
+    <string name="tts_owl_says">a coruja faz</string>
+    <string name="tts_sheep_says">a ovelha faz</string>
+    <string name="tts_bear_says">o urso faz</string>
+    <string name="tts_chipmunk_says">o esquilo faz</string>
+    <string name="tts_cicada_says">a cigarra faz</string>
+    <string name="tts_coyote_says">o coiote faz</string>
+    <string name="tts_cricket_says">o grilo faz</string>
+    <string name="tts_crow_says">o corvo faz</string>
+    <string name="tts_dolphin_says">o golfinho faz</string>
+    <string name="tts_eagle_says">a águia faz</string>
+    <string name="tts_elephant_says">o elefante faz</string>
+    <string name="tts_fox_says">a raposa faz</string>
+    <string name="tts_goose_says">o ganso faz</string>
+    <string name="tts_hyena_says">a hiena faz</string>
+    <string name="tts_parrot_says">o papagaio faz</string>
+    <string name="tts_peacock_says">o pavão faz</string>
+    <string name="tts_penguin_says">o pinguim faz</string>
+    <string name="tts_pig_says">o porco faz</string>
+    <string name="tts_seal_says">a foca faz</string>
+    <string name="tts_snake_says">a cobra faz</string>
+    <string name="tts_squirrel_says">o esquilo faz</string>
+    <string name="tts_tiger_says">o tigre faz</string>
+    <string name="tts_whale_says">a baleia faz</string>
+    <string name="tts_wolf_says">o lobo faz</string>
+    <string name="tts_zebra_says">a zebra faz</string>
+
+    <!-- App labels -->
+    <string name="settings">configurações</string>
+    <string name="speak_animal_name">dizer o nome do animal</string>
+    <string name="voices">vozes</string>
+    <string name="presets">predefinições</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">robô</string>
+    <string name="preset_chipmunk">esquilo</string>
+    <string name="voice_pitch">tom de voz</string>
+    <string name="voice_pitch_slider">tom de voz</string>
+    <string name="voice_speed">velocidade da voz</string>
+    <string name="voice_speed_slider">velocidade da voz</string>
+    <string name="save_btn">salvar</string>
+
+</resources>

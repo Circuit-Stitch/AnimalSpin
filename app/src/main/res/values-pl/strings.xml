@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "mówi" = "says", the idiomatic Polish kids' construction
+         ("Co mówi kot? Miau!"); verb is person-not-gender, animal in nominative.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">kot mówi</string>
+    <string name="tts_chicken_says">kura mówi</string>
+    <string name="tts_cow_says">krowa mówi</string>
+    <string name="tts_dog_says">pies mówi</string>
+    <string name="tts_donkey_says">osioł mówi</string>
+    <string name="tts_duck_says">kaczka mówi</string>
+    <string name="tts_frog_says">żaba mówi</string>
+    <string name="tts_goat_says">koza mówi</string>
+    <string name="tts_horse_says">koń mówi</string>
+    <string name="tts_lion_says">lew mówi</string>
+    <string name="tts_monkey_says">małpa mówi</string>
+    <string name="tts_owl_says">sowa mówi</string>
+    <string name="tts_sheep_says">owca mówi</string>
+    <string name="tts_bear_says">niedźwiedź mówi</string>
+    <string name="tts_chipmunk_says">burunduk mówi</string>
+    <string name="tts_cicada_says">cykada mówi</string>
+    <string name="tts_coyote_says">kojot mówi</string>
+    <string name="tts_cricket_says">świerszcz mówi</string>
+    <string name="tts_crow_says">wrona mówi</string>
+    <string name="tts_dolphin_says">delfin mówi</string>
+    <string name="tts_eagle_says">orzeł mówi</string>
+    <string name="tts_elephant_says">słoń mówi</string>
+    <string name="tts_fox_says">lis mówi</string>
+    <string name="tts_goose_says">gęś mówi</string>
+    <string name="tts_hyena_says">hiena mówi</string>
+    <string name="tts_parrot_says">papuga mówi</string>
+    <string name="tts_peacock_says">paw mówi</string>
+    <string name="tts_penguin_says">pingwin mówi</string>
+    <string name="tts_pig_says">świnia mówi</string>
+    <string name="tts_seal_says">foka mówi</string>
+    <string name="tts_snake_says">wąż mówi</string>
+    <string name="tts_squirrel_says">wiewiórka mówi</string>
+    <string name="tts_tiger_says">tygrys mówi</string>
+    <string name="tts_whale_says">wieloryb mówi</string>
+    <string name="tts_wolf_says">wilk mówi</string>
+    <string name="tts_zebra_says">zebra mówi</string>
+
+    <!-- App labels -->
+    <string name="settings">ustawienia</string>
+    <string name="speak_animal_name">powiedz nazwę zwierzęcia</string>
+    <string name="voices">głosy</string>
+    <string name="presets">ustawienia wstępne</string>
+    <string name="preset_normal">normalny</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">wiewiórka</string>
+    <string name="voice_pitch">wysokość głosu</string>
+    <string name="voice_pitch_slider">wysokość głosu</string>
+    <string name="voice_speed">szybkość głosu</string>
+    <string name="voice_speed_slider">szybkość głosu</string>
+    <string name="save_btn">zapisz</string>
+
+</resources>

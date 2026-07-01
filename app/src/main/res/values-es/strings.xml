@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Animal TTS Values. "hace" = the idiomatic "makes [the sound]" used in kids' material.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">el gato hace</string>
+    <string name="tts_chicken_says">la gallina hace</string>
+    <string name="tts_cow_says">la vaca hace</string>
+    <string name="tts_dog_says">el perro hace</string>
+    <string name="tts_donkey_says">el burro hace</string>
+    <string name="tts_duck_says">el pato hace</string>
+    <string name="tts_frog_says">la rana hace</string>
+    <string name="tts_goat_says">la cabra hace</string>
+    <string name="tts_horse_says">el caballo hace</string>
+    <string name="tts_lion_says">el león hace</string>
+    <string name="tts_monkey_says">el mono hace</string>
+    <string name="tts_owl_says">el búho hace</string>
+    <string name="tts_sheep_says">la oveja hace</string>
+    <string name="tts_bear_says">el oso hace</string>
+    <string name="tts_chipmunk_says">la ardilla listada hace</string>
+    <string name="tts_cicada_says">la cigarra hace</string>
+    <string name="tts_coyote_says">el coyote hace</string>
+    <string name="tts_cricket_says">el grillo hace</string>
+    <string name="tts_crow_says">el cuervo hace</string>
+    <string name="tts_dolphin_says">el delfín hace</string>
+    <string name="tts_eagle_says">el águila hace</string>
+    <string name="tts_elephant_says">el elefante hace</string>
+    <string name="tts_fox_says">el zorro hace</string>
+    <string name="tts_goose_says">el ganso hace</string>
+    <string name="tts_hyena_says">la hiena hace</string>
+    <string name="tts_parrot_says">el loro hace</string>
+    <string name="tts_peacock_says">el pavo real hace</string>
+    <string name="tts_penguin_says">el pingüino hace</string>
+    <string name="tts_pig_says">el cerdo hace</string>
+    <string name="tts_seal_says">la foca hace</string>
+    <string name="tts_snake_says">la serpiente hace</string>
+    <string name="tts_squirrel_says">la ardilla hace</string>
+    <string name="tts_tiger_says">el tigre hace</string>
+    <string name="tts_whale_says">la ballena hace</string>
+    <string name="tts_wolf_says">el lobo hace</string>
+    <string name="tts_zebra_says">la cebra hace</string>
+
+    <!-- App labels -->
+    <string name="settings">ajustes</string>
+    <string name="speak_animal_name">decir el nombre del animal</string>
+    <string name="voices">voces</string>
+    <string name="presets">preajustes</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">ardilla</string>
+    <string name="voice_pitch">tono de voz</string>
+    <string name="voice_pitch_slider">tono de voz</string>
+    <string name="voice_speed">velocidad de voz</string>
+    <string name="voice_speed_slider">velocidad de voz</string>
+    <string name="save_btn">guardar</string>
+
+</resources>

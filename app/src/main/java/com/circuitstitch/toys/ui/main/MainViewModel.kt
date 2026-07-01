@@ -1,5 +1,6 @@
 package com.circuitstitch.toys.ui.main
 
+import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
@@ -26,17 +27,20 @@ class MainViewModel : ViewModel() {
 
     private var mp: MediaPlayer? = null
     private var ttsReady = false
+
+    // The language TTS actually speaks. Resolved once at init to the device locale (when we
+    // ship a translation for it and the device has voice data), else English. The spoken
+    // phrase is always read from a Context set to THIS locale (see [play]), so the voice's
+    // language and the text's language never disagree.
+    private var ttsLocale: Locale = Locale.US
+
     private val tts: TextToSpeech = TextToSpeech(context) { status ->
         if (status == TextToSpeech.SUCCESS) {
-            val result = tts.setLanguage(TTS_LANGUAGE)
-            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                Timber.e("This Language is not supported")
-            } else {
-                ttsReady = true
-                val options = availableVoiceOptions()
-                Timber.d("available voices (%d): %s", options.size, options)
-                prefs.setVoiceOptions(options)
-            }
+            ttsLocale = resolveTtsLocale()
+            ttsReady = true
+            val options = availableVoiceOptions()
+            Timber.d("tts locale %s, available voices (%d): %s", ttsLocale, options.size, options)
+            prefs.setVoiceOptions(options)
         }
     }
 
@@ -62,7 +66,7 @@ class MainViewModel : ViewModel() {
             @Deprecated("Deprecated in Java")
             override fun onError(utteranceId: String?) = Timber.d("tts error")
         })
-        val says = context.getString(animal.tts_says)
+        val says = localizedContext().getString(animal.tts_says)
         tts.speak(says, TextToSpeech.QUEUE_FLUSH, null, says)
     }
 
@@ -74,18 +78,41 @@ class MainViewModel : ViewModel() {
     private fun applyVoiceSettings() {
         tts.setSpeechRate(prefs.getVoiceSpeed())
         tts.setPitch(prefs.getVoicePitch())
+        // Only honor a saved voice from the language we're speaking — otherwise a leftover
+        // (or default) English voice would silently switch the engine back to English.
         prefs.getSelectedVoiceName()?.let { name ->
-            tts.voices.firstOrNull { it.name == name }?.let { tts.voice = it }
+            tts.voices.firstOrNull { it.name == name && it.locale.language == ttsLocale.language }
+                ?.let { tts.voice = it }
         }
     }
 
-    // All offline English voices (any region, any quality) — broadens the old US-only,
-    // high-quality pool so lower-fidelity/robotic voices can be picked too. Each option is
-    // serialized "id|region|quality" so SettingsScreen can show friendly grouped names
-    // (region + quality come from the live Voice and aren't recoverable from the id alone).
+    // Prefer the device language, but only when we ship a translation for it (so spoken text
+    // exists) AND the device has voice data for it. Otherwise fall back to English — the
+    // recorded animal clip plays regardless, so playback never fully fails.
+    private fun resolveTtsLocale(): Locale {
+        val device = Locale.getDefault()
+        if (device.language in SUPPORTED_LANGUAGES &&
+            tts.setLanguage(device) >= TextToSpeech.LANG_AVAILABLE
+        ) return device
+        Timber.d("no shipped TTS for %s; speaking English", device)
+        tts.setLanguage(Locale.US)
+        return Locale.US
+    }
+
+    // Reads string resources in [ttsLocale] instead of the device locale, guaranteeing the
+    // spoken phrase is in the same language the voice speaks (never English text in a foreign
+    // accent, or vice-versa).
+    private fun localizedContext() =
+        context.createConfigurationContext(
+            Configuration(context.resources.configuration).apply { setLocale(ttsLocale) }
+        )
+
+    // Offline voices for the spoken language (any region, any quality). Serialized
+    // "id|region|quality" so SettingsScreen can show friendly grouped names (region + quality
+    // come from the live Voice and aren't recoverable from the id alone).
     private fun availableVoiceOptions(): List<String> =
         tts.voices.orEmpty()
-            .filter { it.locale.language == TTS_LANGUAGE.language && !it.isNetworkConnectionRequired }
+            .filter { it.locale.language == ttsLocale.language && !it.isNetworkConnectionRequired }
             .map { "${it.name}|${it.locale.displayName}|${qualityLabel(it.quality)}" }
 
     private fun qualityLabel(quality: Int): String = when {
@@ -101,6 +128,8 @@ class MainViewModel : ViewModel() {
     }
 
     companion object {
-        private val TTS_LANGUAGE: Locale = Locale.US
+        // Languages we ship translations for (mirror the values-<code>/ dirs). Add the code
+        // here when you add a translation, or that locale will keep speaking English.
+        private val SUPPORTED_LANGUAGES = setOf("en", "es", "fr", "de", "pt", "it", "hi", "id", "ja", "ru", "ko", "tr", "vi", "th", "pl", "nl", "ar")
     }
 }

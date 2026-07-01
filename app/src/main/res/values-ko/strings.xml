@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "<동물> 소리" = "the <animal>'s sound", the natural kids'
+         lead-in before the sound plays (Korean has no articles; avoids verb conjugation).
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">고양이 소리</string>
+    <string name="tts_chicken_says">닭 소리</string>
+    <string name="tts_cow_says">소 소리</string>
+    <string name="tts_dog_says">개 소리</string>
+    <string name="tts_donkey_says">당나귀 소리</string>
+    <string name="tts_duck_says">오리 소리</string>
+    <string name="tts_frog_says">개구리 소리</string>
+    <string name="tts_goat_says">염소 소리</string>
+    <string name="tts_horse_says">말 소리</string>
+    <string name="tts_lion_says">사자 소리</string>
+    <string name="tts_monkey_says">원숭이 소리</string>
+    <string name="tts_owl_says">부엉이 소리</string>
+    <string name="tts_sheep_says">양 소리</string>
+    <string name="tts_bear_says">곰 소리</string>
+    <string name="tts_chipmunk_says">얼룩다람쥐 소리</string>
+    <string name="tts_cicada_says">매미 소리</string>
+    <string name="tts_coyote_says">코요테 소리</string>
+    <string name="tts_cricket_says">귀뚜라미 소리</string>
+    <string name="tts_crow_says">까마귀 소리</string>
+    <string name="tts_dolphin_says">돌고래 소리</string>
+    <string name="tts_eagle_says">독수리 소리</string>
+    <string name="tts_elephant_says">코끼리 소리</string>
+    <string name="tts_fox_says">여우 소리</string>
+    <string name="tts_goose_says">거위 소리</string>
+    <string name="tts_hyena_says">하이에나 소리</string>
+    <string name="tts_parrot_says">앵무새 소리</string>
+    <string name="tts_peacock_says">공작 소리</string>
+    <string name="tts_penguin_says">펭귄 소리</string>
+    <string name="tts_pig_says">돼지 소리</string>
+    <string name="tts_seal_says">물개 소리</string>
+    <string name="tts_snake_says">뱀 소리</string>
+    <string name="tts_squirrel_says">다람쥐 소리</string>
+    <string name="tts_tiger_says">호랑이 소리</string>
+    <string name="tts_whale_says">고래 소리</string>
+    <string name="tts_wolf_says">늑대 소리</string>
+    <string name="tts_zebra_says">얼룩말 소리</string>
+
+    <!-- App labels -->
+    <string name="settings">설정</string>
+    <string name="speak_animal_name">동물 이름 말하기</string>
+    <string name="voices">목소리</string>
+    <string name="presets">프리셋</string>
+    <string name="preset_normal">보통</string>
+    <string name="preset_robot">로봇</string>
+    <string name="preset_chipmunk">얼룩다람쥐</string>
+    <string name="voice_pitch">목소리 높이</string>
+    <string name="voice_pitch_slider">목소리 높이</string>
+    <string name="voice_speed">목소리 속도</string>
+    <string name="voice_speed_slider">목소리 속도</string>
+    <string name="save_btn">저장</string>
+
+</resources>

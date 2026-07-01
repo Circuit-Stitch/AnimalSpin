@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "de/het <dier> zegt" = "the X says" — the natural Dutch
+         kids' construction ("Wat zegt de koe? Boe!"); article is de (common) or het (neuter).
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">de kat zegt</string>
+    <string name="tts_chicken_says">de kip zegt</string>
+    <string name="tts_cow_says">de koe zegt</string>
+    <string name="tts_dog_says">de hond zegt</string>
+    <string name="tts_donkey_says">de ezel zegt</string>
+    <string name="tts_duck_says">de eend zegt</string>
+    <string name="tts_frog_says">de kikker zegt</string>
+    <string name="tts_goat_says">de geit zegt</string>
+    <string name="tts_horse_says">het paard zegt</string>
+    <string name="tts_lion_says">de leeuw zegt</string>
+    <string name="tts_monkey_says">de aap zegt</string>
+    <string name="tts_owl_says">de uil zegt</string>
+    <string name="tts_sheep_says">het schaap zegt</string>
+    <string name="tts_bear_says">de beer zegt</string>
+    <string name="tts_chipmunk_says">de chipmunk zegt</string>
+    <string name="tts_cicada_says">de cicade zegt</string>
+    <string name="tts_coyote_says">de coyote zegt</string>
+    <string name="tts_cricket_says">de krekel zegt</string>
+    <string name="tts_crow_says">de kraai zegt</string>
+    <string name="tts_dolphin_says">de dolfijn zegt</string>
+    <string name="tts_eagle_says">de adelaar zegt</string>
+    <string name="tts_elephant_says">de olifant zegt</string>
+    <string name="tts_fox_says">de vos zegt</string>
+    <string name="tts_goose_says">de gans zegt</string>
+    <string name="tts_hyena_says">de hyena zegt</string>
+    <string name="tts_parrot_says">de papegaai zegt</string>
+    <string name="tts_peacock_says">de pauw zegt</string>
+    <string name="tts_penguin_says">de pinguïn zegt</string>
+    <string name="tts_pig_says">het varken zegt</string>
+    <string name="tts_seal_says">de zeehond zegt</string>
+    <string name="tts_snake_says">de slang zegt</string>
+    <string name="tts_squirrel_says">de eekhoorn zegt</string>
+    <string name="tts_tiger_says">de tijger zegt</string>
+    <string name="tts_whale_says">de walvis zegt</string>
+    <string name="tts_wolf_says">de wolf zegt</string>
+    <string name="tts_zebra_says">de zebra zegt</string>
+
+    <!-- App labels -->
+    <string name="settings">instellingen</string>
+    <string name="speak_animal_name">zeg de naam van het dier</string>
+    <string name="voices">stemmen</string>
+    <string name="presets">voorinstellingen</string>
+    <string name="preset_normal">normaal</string>
+    <string name="preset_robot">robot</string>
+    <string name="preset_chipmunk">eekhoorn</string>
+    <string name="voice_pitch">toonhoogte</string>
+    <string name="voice_pitch_slider">toonhoogte</string>
+    <string name="voice_speed">spreeksnelheid</string>
+    <string name="voice_speed_slider">spreeksnelheid</string>
+    <string name="save_btn">opslaan</string>
+
+</resources>

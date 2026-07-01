@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "<動物>のなきごえ" = "the <animal>'s cry", the natural kids'
+         lead-in before the sound plays (Japanese has no articles). Native review welcome
+         (see README contribution rules). -->
+    <string name="tts_cat_says">ネコのなきごえ</string>
+    <string name="tts_chicken_says">ニワトリのなきごえ</string>
+    <string name="tts_cow_says">ウシのなきごえ</string>
+    <string name="tts_dog_says">イヌのなきごえ</string>
+    <string name="tts_donkey_says">ロバのなきごえ</string>
+    <string name="tts_duck_says">アヒルのなきごえ</string>
+    <string name="tts_frog_says">カエルのなきごえ</string>
+    <string name="tts_goat_says">ヤギのなきごえ</string>
+    <string name="tts_horse_says">ウマのなきごえ</string>
+    <string name="tts_lion_says">ライオンのなきごえ</string>
+    <string name="tts_monkey_says">サルのなきごえ</string>
+    <string name="tts_owl_says">フクロウのなきごえ</string>
+    <string name="tts_sheep_says">ヒツジのなきごえ</string>
+    <string name="tts_bear_says">クマのなきごえ</string>
+    <string name="tts_chipmunk_says">シマリスのなきごえ</string>
+    <string name="tts_cicada_says">セミのなきごえ</string>
+    <string name="tts_coyote_says">コヨーテのなきごえ</string>
+    <string name="tts_cricket_says">コオロギのなきごえ</string>
+    <string name="tts_crow_says">カラスのなきごえ</string>
+    <string name="tts_dolphin_says">イルカのなきごえ</string>
+    <string name="tts_eagle_says">ワシのなきごえ</string>
+    <string name="tts_elephant_says">ゾウのなきごえ</string>
+    <string name="tts_fox_says">キツネのなきごえ</string>
+    <string name="tts_goose_says">ガチョウのなきごえ</string>
+    <string name="tts_hyena_says">ハイエナのなきごえ</string>
+    <string name="tts_parrot_says">オウムのなきごえ</string>
+    <string name="tts_peacock_says">クジャクのなきごえ</string>
+    <string name="tts_penguin_says">ペンギンのなきごえ</string>
+    <string name="tts_pig_says">ブタのなきごえ</string>
+    <string name="tts_seal_says">アザラシのなきごえ</string>
+    <string name="tts_snake_says">ヘビのなきごえ</string>
+    <string name="tts_squirrel_says">リスのなきごえ</string>
+    <string name="tts_tiger_says">トラのなきごえ</string>
+    <string name="tts_whale_says">クジラのなきごえ</string>
+    <string name="tts_wolf_says">オオカミのなきごえ</string>
+    <string name="tts_zebra_says">シマウマのなきごえ</string>
+
+    <!-- App labels -->
+    <string name="settings">せってい</string>
+    <string name="speak_animal_name">どうぶつのなまえをいう</string>
+    <string name="voices">こえ</string>
+    <string name="presets">プリセット</string>
+    <string name="preset_normal">ふつう</string>
+    <string name="preset_robot">ロボット</string>
+    <string name="preset_chipmunk">シマリス</string>
+    <string name="voice_pitch">こえのたかさ</string>
+    <string name="voice_pitch_slider">こえのたかさ</string>
+    <string name="voice_speed">こえのはやさ</string>
+    <string name="voice_speed_slider">こえのはやさ</string>
+    <string name="save_btn">ほぞん</string>
+
+</resources>

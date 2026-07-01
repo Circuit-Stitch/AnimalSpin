@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Animal TTS Values. "เสียง<animal>" = "the sound of the X" — clean, article-free.
+         Thai is written with no spaces between words; do not insert any.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">เสียงแมว</string>
+    <string name="tts_chicken_says">เสียงไก่</string>
+    <string name="tts_cow_says">เสียงวัว</string>
+    <string name="tts_dog_says">เสียงหมา</string>
+    <string name="tts_donkey_says">เสียงลา</string>
+    <string name="tts_duck_says">เสียงเป็ด</string>
+    <string name="tts_frog_says">เสียงกบ</string>
+    <string name="tts_goat_says">เสียงแพะ</string>
+    <string name="tts_horse_says">เสียงม้า</string>
+    <string name="tts_lion_says">เสียงสิงโต</string>
+    <string name="tts_monkey_says">เสียงลิง</string>
+    <string name="tts_owl_says">เสียงนกฮูก</string>
+    <string name="tts_sheep_says">เสียงแกะ</string>
+    <string name="tts_bear_says">เสียงหมี</string>
+    <string name="tts_chipmunk_says">เสียงกระรอกลาย</string>
+    <string name="tts_cicada_says">เสียงจักจั่น</string>
+    <string name="tts_coyote_says">เสียงโคโยตี้</string>
+    <string name="tts_cricket_says">เสียงจิ้งหรีด</string>
+    <string name="tts_crow_says">เสียงอีกา</string>
+    <string name="tts_dolphin_says">เสียงโลมา</string>
+    <string name="tts_eagle_says">เสียงนกอินทรี</string>
+    <string name="tts_elephant_says">เสียงช้าง</string>
+    <string name="tts_fox_says">เสียงจิ้งจอก</string>
+    <string name="tts_goose_says">เสียงห่าน</string>
+    <string name="tts_hyena_says">เสียงไฮยีนา</string>
+    <string name="tts_parrot_says">เสียงนกแก้ว</string>
+    <string name="tts_peacock_says">เสียงนกยูง</string>
+    <string name="tts_penguin_says">เสียงเพนกวิน</string>
+    <string name="tts_pig_says">เสียงหมู</string>
+    <string name="tts_seal_says">เสียงแมวน้ำ</string>
+    <string name="tts_snake_says">เสียงงู</string>
+    <string name="tts_squirrel_says">เสียงกระรอก</string>
+    <string name="tts_tiger_says">เสียงเสือ</string>
+    <string name="tts_whale_says">เสียงวาฬ</string>
+    <string name="tts_wolf_says">เสียงหมาป่า</string>
+    <string name="tts_zebra_says">เสียงม้าลาย</string>
+
+    <!-- App labels -->
+    <string name="settings">ตั้งค่า</string>
+    <string name="speak_animal_name">พูดชื่อสัตว์</string>
+    <string name="voices">เสียง</string>
+    <string name="presets">ค่าที่ตั้งไว้</string>
+    <string name="preset_normal">ปกติ</string>
+    <string name="preset_robot">หุ่นยนต์</string>
+    <string name="preset_chipmunk">กระรอก</string>
+    <string name="voice_pitch">ระดับเสียง</string>
+    <string name="voice_pitch_slider">ระดับเสียง</string>
+    <string name="voice_speed">ความเร็วเสียง</string>
+    <string name="voice_speed_slider">ความเร็วเสียง</string>
+    <string name="save_btn">บันทึก</string>
+
+</resources>

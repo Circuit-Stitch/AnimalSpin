@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Animal TTS Values. "macht" = the idiomatic "makes [the sound]" used in kids' material.
+         Native review welcome (see README contribution rules). -->
+    <string name="tts_cat_says">die Katze macht</string>
+    <string name="tts_chicken_says">das Huhn macht</string>
+    <string name="tts_cow_says">die Kuh macht</string>
+    <string name="tts_dog_says">der Hund macht</string>
+    <string name="tts_donkey_says">der Esel macht</string>
+    <string name="tts_duck_says">die Ente macht</string>
+    <string name="tts_frog_says">der Frosch macht</string>
+    <string name="tts_goat_says">die Ziege macht</string>
+    <string name="tts_horse_says">das Pferd macht</string>
+    <string name="tts_lion_says">der Löwe macht</string>
+    <string name="tts_monkey_says">der Affe macht</string>
+    <string name="tts_owl_says">die Eule macht</string>
+    <string name="tts_sheep_says">das Schaf macht</string>
+    <string name="tts_bear_says">der Bär macht</string>
+    <string name="tts_chipmunk_says">das Streifenhörnchen macht</string>
+    <string name="tts_cicada_says">die Zikade macht</string>
+    <string name="tts_coyote_says">der Kojote macht</string>
+    <string name="tts_cricket_says">die Grille macht</string>
+    <string name="tts_crow_says">die Krähe macht</string>
+    <string name="tts_dolphin_says">der Delfin macht</string>
+    <string name="tts_eagle_says">der Adler macht</string>
+    <string name="tts_elephant_says">der Elefant macht</string>
+    <string name="tts_fox_says">der Fuchs macht</string>
+    <string name="tts_goose_says">die Gans macht</string>
+    <string name="tts_hyena_says">die Hyäne macht</string>
+    <string name="tts_parrot_says">der Papagei macht</string>
+    <string name="tts_peacock_says">der Pfau macht</string>
+    <string name="tts_penguin_says">der Pinguin macht</string>
+    <string name="tts_pig_says">das Schwein macht</string>
+    <string name="tts_seal_says">die Robbe macht</string>
+    <string name="tts_snake_says">die Schlange macht</string>
+    <string name="tts_squirrel_says">das Eichhörnchen macht</string>
+    <string name="tts_tiger_says">der Tiger macht</string>
+    <string name="tts_whale_says">der Wal macht</string>
+    <string name="tts_wolf_says">der Wolf macht</string>
+    <string name="tts_zebra_says">das Zebra macht</string>
+
+    <!-- App labels -->
+    <string name="settings">Einstellungen</string>
+    <string name="speak_animal_name">Tiernamen sagen</string>
+    <string name="voices">Stimmen</string>
+    <string name="presets">Voreinstellungen</string>
+    <string name="preset_normal">normal</string>
+    <string name="preset_robot">Roboter</string>
+    <string name="preset_chipmunk">Eichhörnchen</string>
+    <string name="voice_pitch">Tonhöhe</string>
+    <string name="voice_pitch_slider">Tonhöhe</string>
+    <string name="voice_speed">Sprechtempo</string>
+    <string name="voice_speed_slider">Sprechtempo</string>
+    <string name="save_btn">Speichern</string>
+
+</resources>
